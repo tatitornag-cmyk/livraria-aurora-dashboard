@@ -1,0 +1,1001 @@
+id_venda,data,id_cliente,id_livro,quantidade,id_funcionario,nome,cidade,idade,titulo,categoria,autor,preco,custo,funcionario,faturamento,custo_total,lucro,mes,nome_mes
+1,2025-04-17,16,15,2,1,Cliente 16,Porto Alegre,53,Python para Dados,Tecnologia,Autor Diversos,101,43,Ana,202,86,116,4,April
+2,2025-04-06,16,12,4,1,Cliente 16,Porto Alegre,53,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,Ana,340,172,168,4,April
+3,2025-12-13,46,14,4,4,Cliente 46,Pelotas,25,Clean Code,Tecnologia,Robert C. Martin,88,59,Marina,352,236,116,12,December
+4,2025-08-23,39,2,1,3,Cliente 39,Pelotas,44,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,João,100,48,52,8,August
+5,2025-03-03,31,18,3,1,Cliente 31,Porto Alegre,37,Coraline,Fantasia,Neil Gaiman,42,21,Ana,126,63,63,3,March
+6,2025-09-13,88,7,3,2,Cliente 88,Pelotas,21,It: A Coisa,Terror,Stephen King,94,58,Carlos,282,174,108,9,September
+7,2025-02-18,1,6,4,4,Cliente 1,Rio Grande,68,A Revolução dos Bichos,Ficção,George Orwell,66,40,Marina,264,160,104,2,February
+8,2025-12-14,11,14,1,2,Cliente 11,Rio Grande,56,Clean Code,Tecnologia,Robert C. Martin,88,59,Carlos,88,59,29,12,December
+9,2025-06-08,85,8,2,1,Cliente 85,Porto Alegre,49,Orgulho e Preconceito,Romance,Jane Austen,96,38,Ana,192,76,116,6,June
+10,2025-05-04,4,2,3,2,Cliente 4,Porto Alegre,66,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,Carlos,300,144,156,5,May
+11,2025-11-13,71,17,2,1,Cliente 71,Porto Alegre,34,Extraordinário,Infantil,R.J. Palacio,92,41,Ana,184,82,102,11,November
+12,2025-07-26,26,5,3,4,Cliente 26,Rio Grande,23,O Pequeno Príncipe,Infantil,Antoine de Saint-Exupéry,74,27,Marina,222,81,141,7,July
+13,2025-02-17,50,14,1,2,Cliente 50,Pelotas,50,Clean Code,Tecnologia,Robert C. Martin,88,59,Carlos,88,59,29,2,February
+14,2025-05-16,12,20,4,2,Cliente 12,Rio Grande,62,O Alquimista,Ficção,Paulo Coelho,86,63,Carlos,344,252,92,5,May
+15,2025-07-20,95,3,2,1,Cliente 95,Pelotas,51,O Hobbit,Fantasia,J.R.R. Tolkien,50,34,Ana,100,68,32,7,July
+16,2025-09-07,81,5,2,1,Cliente 81,Pelotas,36,O Pequeno Príncipe,Infantil,Antoine de Saint-Exupéry,74,27,Ana,148,54,94,9,September
+17,2025-11-10,97,16,4,3,Cliente 97,Rio Grande,39,O Poder do Hábito,Desenvolvimento Pessoal,Charles Duhigg,39,22,João,156,88,68,11,November
+18,2025-12-23,75,18,2,1,Cliente 75,Porto Alegre,45,Coraline,Fantasia,Neil Gaiman,42,21,Ana,84,42,42,12,December
+19,2025-11-14,92,17,3,1,Cliente 92,Porto Alegre,41,Extraordinário,Infantil,R.J. Palacio,92,41,Ana,276,123,153,11,November
+20,2025-10-22,96,11,4,3,Cliente 96,Rio Grande,23,Pai Rico Pai Pobre,Negócios,Robert Kiyosaki,86,30,João,344,120,224,10,October
+21,2025-11-10,65,17,3,1,Cliente 65,Porto Alegre,56,Extraordinário,Infantil,R.J. Palacio,92,41,Ana,276,123,153,11,November
+22,2025-07-28,47,16,3,1,Cliente 47,Pelotas,44,O Poder do Hábito,Desenvolvimento Pessoal,Charles Duhigg,39,22,Ana,117,66,51,7,July
+23,2025-12-21,92,2,1,3,Cliente 92,Porto Alegre,41,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,João,100,48,52,12,December
+24,2025-07-30,53,4,3,4,Cliente 53,Rio Grande,61,1984,Ficção,George Orwell,97,62,Marina,291,186,105,7,July
+25,2025-07-11,71,7,1,4,Cliente 71,Porto Alegre,34,It: A Coisa,Terror,Stephen King,94,58,Marina,94,58,36,7,July
+26,2025-02-13,2,2,2,1,Cliente 2,Porto Alegre,49,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,Ana,200,96,104,2,February
+27,2025-01-29,24,6,2,1,Cliente 24,Porto Alegre,59,A Revolução dos Bichos,Ficção,George Orwell,66,40,Ana,132,80,52,1,January
+28,2025-02-28,4,17,1,3,Cliente 4,Porto Alegre,66,Extraordinário,Infantil,R.J. Palacio,92,41,João,92,41,51,2,February
+29,2025-03-12,19,7,3,3,Cliente 19,Porto Alegre,24,It: A Coisa,Terror,Stephen King,94,58,João,282,174,108,3,March
+30,2025-04-02,26,5,4,4,Cliente 26,Rio Grande,23,O Pequeno Príncipe,Infantil,Antoine de Saint-Exupéry,74,27,Marina,296,108,188,4,April
+31,2025-09-22,75,5,4,2,Cliente 75,Porto Alegre,45,O Pequeno Príncipe,Infantil,Antoine de Saint-Exupéry,74,27,Carlos,296,108,188,9,September
+32,2025-08-08,40,20,1,1,Cliente 40,Pelotas,69,O Alquimista,Ficção,Paulo Coelho,86,63,Ana,86,63,23,8,August
+33,2025-08-03,50,16,2,2,Cliente 50,Pelotas,50,O Poder do Hábito,Desenvolvimento Pessoal,Charles Duhigg,39,22,Carlos,78,44,34,8,August
+34,2025-10-04,43,19,2,2,Cliente 43,Pelotas,20,A Menina que Roubava Livros,Romance,Markus Zusak,78,43,Carlos,156,86,70,10,October
+35,2025-03-05,75,9,4,3,Cliente 75,Porto Alegre,45,O Senhor dos Anéis,Fantasia,J.R.R. Tolkien,81,42,João,324,168,156,3,March
+36,2025-12-12,67,5,1,1,Cliente 67,Porto Alegre,20,O Pequeno Príncipe,Infantil,Antoine de Saint-Exupéry,74,27,Ana,74,27,47,12,December
+37,2025-10-19,12,8,4,1,Cliente 12,Rio Grande,62,Orgulho e Preconceito,Romance,Jane Austen,96,38,Ana,384,152,232,10,October
+38,2025-09-02,67,9,3,3,Cliente 67,Porto Alegre,20,O Senhor dos Anéis,Fantasia,J.R.R. Tolkien,81,42,João,243,126,117,9,September
+39,2025-03-03,27,5,3,2,Cliente 27,Porto Alegre,45,O Pequeno Príncipe,Infantil,Antoine de Saint-Exupéry,74,27,Carlos,222,81,141,3,March
+40,2025-11-28,54,10,1,3,Cliente 54,Pelotas,41,Verity,Romance,Colleen Hoover,71,30,João,71,30,41,11,November
+41,2025-06-19,66,2,1,4,Cliente 66,Rio Grande,19,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,Marina,100,48,52,6,June
+42,2025-09-26,49,9,3,1,Cliente 49,Rio Grande,54,O Senhor dos Anéis,Fantasia,J.R.R. Tolkien,81,42,Ana,243,126,117,9,September
+43,2025-09-24,16,11,2,4,Cliente 16,Porto Alegre,53,Pai Rico Pai Pobre,Negócios,Robert Kiyosaki,86,30,Marina,172,60,112,9,September
+44,2025-02-23,2,4,1,3,Cliente 2,Porto Alegre,49,1984,Ficção,George Orwell,97,62,João,97,62,35,2,February
+45,2025-01-16,60,2,3,1,Cliente 60,Rio Grande,69,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,Ana,300,144,156,1,January
+46,2025-01-08,54,6,3,4,Cliente 54,Pelotas,41,A Revolução dos Bichos,Ficção,George Orwell,66,40,Marina,198,120,78,1,January
+47,2025-04-14,30,14,2,4,Cliente 30,Porto Alegre,61,Clean Code,Tecnologia,Robert C. Martin,88,59,Marina,176,118,58,4,April
+48,2025-02-28,84,1,2,2,Cliente 84,Rio Grande,43,Dom Casmurro,Clássico,Machado de Assis,102,58,Carlos,204,116,88,2,February
+49,2025-11-09,38,18,2,1,Cliente 38,Porto Alegre,18,Coraline,Fantasia,Neil Gaiman,42,21,Ana,84,42,42,11,November
+50,2025-02-09,28,7,2,4,Cliente 28,Porto Alegre,45,It: A Coisa,Terror,Stephen King,94,58,Marina,188,116,72,2,February
+51,2025-08-25,25,1,4,4,Cliente 25,Pelotas,62,Dom Casmurro,Clássico,Machado de Assis,102,58,Marina,408,232,176,8,August
+52,2025-04-04,96,1,2,2,Cliente 96,Rio Grande,23,Dom Casmurro,Clássico,Machado de Assis,102,58,Carlos,204,116,88,4,April
+53,2025-08-10,10,1,4,4,Cliente 10,Porto Alegre,40,Dom Casmurro,Clássico,Machado de Assis,102,58,Marina,408,232,176,8,August
+54,2025-07-23,60,4,1,4,Cliente 60,Rio Grande,69,1984,Ficção,George Orwell,97,62,Marina,97,62,35,7,July
+55,2025-05-18,42,4,3,4,Cliente 42,Rio Grande,58,1984,Ficção,George Orwell,97,62,Marina,291,186,105,5,May
+56,2025-10-27,40,18,4,2,Cliente 40,Pelotas,69,Coraline,Fantasia,Neil Gaiman,42,21,Carlos,168,84,84,10,October
+57,2025-07-26,97,11,1,4,Cliente 97,Rio Grande,39,Pai Rico Pai Pobre,Negócios,Robert Kiyosaki,86,30,Marina,86,30,56,7,July
+58,2025-12-02,77,1,1,4,Cliente 77,Rio Grande,54,Dom Casmurro,Clássico,Machado de Assis,102,58,Marina,102,58,44,12,December
+59,2025-03-22,42,10,4,1,Cliente 42,Rio Grande,58,Verity,Romance,Colleen Hoover,71,30,Ana,284,120,164,3,March
+60,2025-08-06,47,9,1,1,Cliente 47,Pelotas,44,O Senhor dos Anéis,Fantasia,J.R.R. Tolkien,81,42,Ana,81,42,39,8,August
+61,2025-01-02,37,4,1,2,Cliente 37,Pelotas,50,1984,Ficção,George Orwell,97,62,Carlos,97,62,35,1,January
+62,2025-06-27,80,6,4,3,Cliente 80,Rio Grande,18,A Revolução dos Bichos,Ficção,George Orwell,66,40,João,264,160,104,6,June
+63,2025-12-12,22,16,1,1,Cliente 22,Porto Alegre,45,O Poder do Hábito,Desenvolvimento Pessoal,Charles Duhigg,39,22,Ana,39,22,17,12,December
+64,2025-10-06,57,2,2,2,Cliente 57,Rio Grande,49,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,Carlos,200,96,104,10,October
+65,2025-05-26,84,18,2,4,Cliente 84,Rio Grande,43,Coraline,Fantasia,Neil Gaiman,42,21,Marina,84,42,42,5,May
+66,2025-11-14,27,10,3,4,Cliente 27,Porto Alegre,45,Verity,Romance,Colleen Hoover,71,30,Marina,213,90,123,11,November
+67,2025-08-12,41,17,1,2,Cliente 41,Porto Alegre,30,Extraordinário,Infantil,R.J. Palacio,92,41,Carlos,92,41,51,8,August
+68,2025-03-03,80,13,3,4,Cliente 80,Rio Grande,18,Sapiens,História,Yuval Noah Harari,85,55,Marina,255,165,90,3,March
+69,2025-10-21,34,18,2,4,Cliente 34,Rio Grande,45,Coraline,Fantasia,Neil Gaiman,42,21,Marina,84,42,42,10,October
+70,2025-08-27,32,13,2,3,Cliente 32,Porto Alegre,47,Sapiens,História,Yuval Noah Harari,85,55,João,170,110,60,8,August
+71,2025-07-14,90,17,2,4,Cliente 90,Rio Grande,34,Extraordinário,Infantil,R.J. Palacio,92,41,Marina,184,82,102,7,July
+72,2025-06-15,89,5,1,1,Cliente 89,Porto Alegre,28,O Pequeno Príncipe,Infantil,Antoine de Saint-Exupéry,74,27,Ana,74,27,47,6,June
+73,2025-08-10,66,11,1,4,Cliente 66,Rio Grande,19,Pai Rico Pai Pobre,Negócios,Robert Kiyosaki,86,30,Marina,86,30,56,8,August
+74,2025-03-02,12,7,2,2,Cliente 12,Rio Grande,62,It: A Coisa,Terror,Stephen King,94,58,Carlos,188,116,72,3,March
+75,2025-05-09,40,10,3,3,Cliente 40,Pelotas,69,Verity,Romance,Colleen Hoover,71,30,João,213,90,123,5,May
+76,2025-06-22,73,17,3,4,Cliente 73,Rio Grande,19,Extraordinário,Infantil,R.J. Palacio,92,41,Marina,276,123,153,6,June
+77,2025-06-05,76,15,4,2,Cliente 76,Pelotas,40,Python para Dados,Tecnologia,Autor Diversos,101,43,Carlos,404,172,232,6,June
+78,2025-04-20,90,18,2,1,Cliente 90,Rio Grande,34,Coraline,Fantasia,Neil Gaiman,42,21,Ana,84,42,42,4,April
+79,2025-09-26,73,19,3,4,Cliente 73,Rio Grande,19,A Menina que Roubava Livros,Romance,Markus Zusak,78,43,Marina,234,129,105,9,September
+80,2025-12-22,10,2,2,3,Cliente 10,Porto Alegre,40,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,João,200,96,104,12,December
+81,2025-10-05,96,4,3,4,Cliente 96,Rio Grande,23,1984,Ficção,George Orwell,97,62,Marina,291,186,105,10,October
+82,2025-03-15,98,3,4,2,Cliente 98,Porto Alegre,28,O Hobbit,Fantasia,J.R.R. Tolkien,50,34,Carlos,200,136,64,3,March
+83,2025-07-26,48,7,4,3,Cliente 48,Pelotas,26,It: A Coisa,Terror,Stephen King,94,58,João,376,232,144,7,July
+84,2025-10-06,20,18,2,4,Cliente 20,Porto Alegre,68,Coraline,Fantasia,Neil Gaiman,42,21,Marina,84,42,42,10,October
+85,2025-11-22,39,10,3,1,Cliente 39,Pelotas,44,Verity,Romance,Colleen Hoover,71,30,Ana,213,90,123,11,November
+86,2025-12-06,60,7,1,3,Cliente 60,Rio Grande,69,It: A Coisa,Terror,Stephen King,94,58,João,94,58,36,12,December
+87,2025-12-23,66,8,4,1,Cliente 66,Rio Grande,19,Orgulho e Preconceito,Romance,Jane Austen,96,38,Ana,384,152,232,12,December
+88,2025-12-06,65,6,2,2,Cliente 65,Porto Alegre,56,A Revolução dos Bichos,Ficção,George Orwell,66,40,Carlos,132,80,52,12,December
+89,2025-07-23,51,1,2,4,Cliente 51,Pelotas,68,Dom Casmurro,Clássico,Machado de Assis,102,58,Marina,204,116,88,7,July
+90,2025-06-10,36,4,3,1,Cliente 36,Rio Grande,56,1984,Ficção,George Orwell,97,62,Ana,291,186,105,6,June
+91,2025-01-28,24,14,2,2,Cliente 24,Porto Alegre,59,Clean Code,Tecnologia,Robert C. Martin,88,59,Carlos,176,118,58,1,January
+92,2025-09-14,27,17,4,4,Cliente 27,Porto Alegre,45,Extraordinário,Infantil,R.J. Palacio,92,41,Marina,368,164,204,9,September
+93,2025-06-14,2,20,2,2,Cliente 2,Porto Alegre,49,O Alquimista,Ficção,Paulo Coelho,86,63,Carlos,172,126,46,6,June
+94,2025-03-04,31,18,2,1,Cliente 31,Porto Alegre,37,Coraline,Fantasia,Neil Gaiman,42,21,Ana,84,42,42,3,March
+95,2025-01-22,57,11,1,2,Cliente 57,Rio Grande,49,Pai Rico Pai Pobre,Negócios,Robert Kiyosaki,86,30,Carlos,86,30,56,1,January
+96,2025-03-11,78,14,1,3,Cliente 78,Porto Alegre,49,Clean Code,Tecnologia,Robert C. Martin,88,59,João,88,59,29,3,March
+97,2025-04-06,66,9,4,4,Cliente 66,Rio Grande,19,O Senhor dos Anéis,Fantasia,J.R.R. Tolkien,81,42,Marina,324,168,156,4,April
+98,2025-06-12,29,15,3,2,Cliente 29,Porto Alegre,61,Python para Dados,Tecnologia,Autor Diversos,101,43,Carlos,303,129,174,6,June
+99,2025-03-20,15,12,1,1,Cliente 15,Rio Grande,46,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,Ana,85,43,42,3,March
+100,2025-01-05,12,10,3,4,Cliente 12,Rio Grande,62,Verity,Romance,Colleen Hoover,71,30,Marina,213,90,123,1,January
+101,2025-11-12,28,19,4,3,Cliente 28,Porto Alegre,45,A Menina que Roubava Livros,Romance,Markus Zusak,78,43,João,312,172,140,11,November
+102,2025-04-30,84,19,1,4,Cliente 84,Rio Grande,43,A Menina que Roubava Livros,Romance,Markus Zusak,78,43,Marina,78,43,35,4,April
+103,2025-10-29,24,6,3,3,Cliente 24,Porto Alegre,59,A Revolução dos Bichos,Ficção,George Orwell,66,40,João,198,120,78,10,October
+104,2025-06-27,21,20,1,4,Cliente 21,Porto Alegre,39,O Alquimista,Ficção,Paulo Coelho,86,63,Marina,86,63,23,6,June
+105,2025-06-25,10,6,4,2,Cliente 10,Porto Alegre,40,A Revolução dos Bichos,Ficção,George Orwell,66,40,Carlos,264,160,104,6,June
+106,2025-08-05,78,8,4,2,Cliente 78,Porto Alegre,49,Orgulho e Preconceito,Romance,Jane Austen,96,38,Carlos,384,152,232,8,August
+107,2025-02-25,18,1,1,1,Cliente 18,Porto Alegre,49,Dom Casmurro,Clássico,Machado de Assis,102,58,Ana,102,58,44,2,February
+108,2025-07-06,88,17,3,3,Cliente 88,Pelotas,21,Extraordinário,Infantil,R.J. Palacio,92,41,João,276,123,153,7,July
+109,2025-08-20,14,17,2,1,Cliente 14,Rio Grande,60,Extraordinário,Infantil,R.J. Palacio,92,41,Ana,184,82,102,8,August
+110,2025-09-12,34,15,2,2,Cliente 34,Rio Grande,45,Python para Dados,Tecnologia,Autor Diversos,101,43,Carlos,202,86,116,9,September
+111,2025-04-14,58,7,1,3,Cliente 58,Rio Grande,41,It: A Coisa,Terror,Stephen King,94,58,João,94,58,36,4,April
+112,2025-03-18,76,19,3,1,Cliente 76,Pelotas,40,A Menina que Roubava Livros,Romance,Markus Zusak,78,43,Ana,234,129,105,3,March
+113,2025-08-18,22,3,2,1,Cliente 22,Porto Alegre,45,O Hobbit,Fantasia,J.R.R. Tolkien,50,34,Ana,100,68,32,8,August
+114,2025-09-15,70,11,4,1,Cliente 70,Pelotas,66,Pai Rico Pai Pobre,Negócios,Robert Kiyosaki,86,30,Ana,344,120,224,9,September
+115,2025-09-21,36,20,3,1,Cliente 36,Rio Grande,56,O Alquimista,Ficção,Paulo Coelho,86,63,Ana,258,189,69,9,September
+116,2025-11-27,45,19,2,1,Cliente 45,Pelotas,23,A Menina que Roubava Livros,Romance,Markus Zusak,78,43,Ana,156,86,70,11,November
+117,2025-07-01,36,9,3,3,Cliente 36,Rio Grande,56,O Senhor dos Anéis,Fantasia,J.R.R. Tolkien,81,42,João,243,126,117,7,July
+118,2025-09-13,22,10,1,1,Cliente 22,Porto Alegre,45,Verity,Romance,Colleen Hoover,71,30,Ana,71,30,41,9,September
+119,2025-02-07,78,2,3,3,Cliente 78,Porto Alegre,49,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,João,300,144,156,2,February
+120,2025-06-25,80,1,2,1,Cliente 80,Rio Grande,18,Dom Casmurro,Clássico,Machado de Assis,102,58,Ana,204,116,88,6,June
+121,2025-01-27,61,16,1,2,Cliente 61,Rio Grande,66,O Poder do Hábito,Desenvolvimento Pessoal,Charles Duhigg,39,22,Carlos,39,22,17,1,January
+122,2025-10-03,100,18,3,2,Cliente 100,Pelotas,33,Coraline,Fantasia,Neil Gaiman,42,21,Carlos,126,63,63,10,October
+123,2025-05-20,56,17,4,1,Cliente 56,Rio Grande,49,Extraordinário,Infantil,R.J. Palacio,92,41,Ana,368,164,204,5,May
+124,2025-10-26,89,6,2,4,Cliente 89,Porto Alegre,28,A Revolução dos Bichos,Ficção,George Orwell,66,40,Marina,132,80,52,10,October
+125,2025-10-14,96,14,1,2,Cliente 96,Rio Grande,23,Clean Code,Tecnologia,Robert C. Martin,88,59,Carlos,88,59,29,10,October
+126,2025-04-01,33,15,3,3,Cliente 33,Rio Grande,28,Python para Dados,Tecnologia,Autor Diversos,101,43,João,303,129,174,4,April
+127,2025-03-02,45,14,4,1,Cliente 45,Pelotas,23,Clean Code,Tecnologia,Robert C. Martin,88,59,Ana,352,236,116,3,March
+128,2025-12-31,36,3,2,3,Cliente 36,Rio Grande,56,O Hobbit,Fantasia,J.R.R. Tolkien,50,34,João,100,68,32,12,December
+129,2025-12-13,20,19,4,4,Cliente 20,Porto Alegre,68,A Menina que Roubava Livros,Romance,Markus Zusak,78,43,Marina,312,172,140,12,December
+130,2025-06-12,18,12,3,1,Cliente 18,Porto Alegre,49,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,Ana,255,129,126,6,June
+131,2025-12-17,38,2,3,2,Cliente 38,Porto Alegre,18,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,Carlos,300,144,156,12,December
+132,2025-05-23,67,3,1,3,Cliente 67,Porto Alegre,20,O Hobbit,Fantasia,J.R.R. Tolkien,50,34,João,50,34,16,5,May
+133,2025-09-10,23,18,4,2,Cliente 23,Porto Alegre,19,Coraline,Fantasia,Neil Gaiman,42,21,Carlos,168,84,84,9,September
+134,2025-09-26,96,1,1,2,Cliente 96,Rio Grande,23,Dom Casmurro,Clássico,Machado de Assis,102,58,Carlos,102,58,44,9,September
+135,2025-10-18,16,20,2,1,Cliente 16,Porto Alegre,53,O Alquimista,Ficção,Paulo Coelho,86,63,Ana,172,126,46,10,October
+136,2025-07-06,59,6,1,3,Cliente 59,Pelotas,58,A Revolução dos Bichos,Ficção,George Orwell,66,40,João,66,40,26,7,July
+137,2025-10-31,69,5,2,4,Cliente 69,Rio Grande,54,O Pequeno Príncipe,Infantil,Antoine de Saint-Exupéry,74,27,Marina,148,54,94,10,October
+138,2025-10-18,68,1,3,2,Cliente 68,Pelotas,66,Dom Casmurro,Clássico,Machado de Assis,102,58,Carlos,306,174,132,10,October
+139,2025-03-27,21,19,3,1,Cliente 21,Porto Alegre,39,A Menina que Roubava Livros,Romance,Markus Zusak,78,43,Ana,234,129,105,3,March
+140,2025-06-15,78,1,4,1,Cliente 78,Porto Alegre,49,Dom Casmurro,Clássico,Machado de Assis,102,58,Ana,408,232,176,6,June
+141,2025-04-24,95,16,2,4,Cliente 95,Pelotas,51,O Poder do Hábito,Desenvolvimento Pessoal,Charles Duhigg,39,22,Marina,78,44,34,4,April
+142,2025-12-22,78,12,3,1,Cliente 78,Porto Alegre,49,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,Ana,255,129,126,12,December
+143,2025-07-02,70,8,4,2,Cliente 70,Pelotas,66,Orgulho e Preconceito,Romance,Jane Austen,96,38,Carlos,384,152,232,7,July
+144,2025-07-26,12,16,4,1,Cliente 12,Rio Grande,62,O Poder do Hábito,Desenvolvimento Pessoal,Charles Duhigg,39,22,Ana,156,88,68,7,July
+145,2025-09-13,16,1,1,3,Cliente 16,Porto Alegre,53,Dom Casmurro,Clássico,Machado de Assis,102,58,João,102,58,44,9,September
+146,2025-08-23,81,4,4,3,Cliente 81,Pelotas,36,1984,Ficção,George Orwell,97,62,João,388,248,140,8,August
+147,2025-12-21,87,10,3,2,Cliente 87,Pelotas,49,Verity,Romance,Colleen Hoover,71,30,Carlos,213,90,123,12,December
+148,2025-01-03,14,11,1,3,Cliente 14,Rio Grande,60,Pai Rico Pai Pobre,Negócios,Robert Kiyosaki,86,30,João,86,30,56,1,January
+149,2025-07-27,61,17,2,4,Cliente 61,Rio Grande,66,Extraordinário,Infantil,R.J. Palacio,92,41,Marina,184,82,102,7,July
+150,2025-07-16,71,7,2,1,Cliente 71,Porto Alegre,34,It: A Coisa,Terror,Stephen King,94,58,Ana,188,116,72,7,July
+151,2025-12-07,46,12,3,2,Cliente 46,Pelotas,25,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,Carlos,255,129,126,12,December
+152,2025-05-05,32,7,3,4,Cliente 32,Porto Alegre,47,It: A Coisa,Terror,Stephen King,94,58,Marina,282,174,108,5,May
+153,2025-05-18,15,12,1,1,Cliente 15,Rio Grande,46,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,Ana,85,43,42,5,May
+154,2025-12-05,44,15,1,4,Cliente 44,Porto Alegre,56,Python para Dados,Tecnologia,Autor Diversos,101,43,Marina,101,43,58,12,December
+155,2025-01-25,17,2,3,2,Cliente 17,Pelotas,30,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,Carlos,300,144,156,1,January
+156,2025-03-09,41,14,3,2,Cliente 41,Porto Alegre,30,Clean Code,Tecnologia,Robert C. Martin,88,59,Carlos,264,177,87,3,March
+157,2025-03-02,54,13,2,4,Cliente 54,Pelotas,41,Sapiens,História,Yuval Noah Harari,85,55,Marina,170,110,60,3,March
+158,2025-01-29,44,4,2,1,Cliente 44,Porto Alegre,56,1984,Ficção,George Orwell,97,62,Ana,194,124,70,1,January
+159,2025-01-19,98,14,2,3,Cliente 98,Porto Alegre,28,Clean Code,Tecnologia,Robert C. Martin,88,59,João,176,118,58,1,January
+160,2025-06-20,5,14,3,3,Cliente 5,Porto Alegre,69,Clean Code,Tecnologia,Robert C. Martin,88,59,João,264,177,87,6,June
+161,2025-03-15,27,16,4,4,Cliente 27,Porto Alegre,45,O Poder do Hábito,Desenvolvimento Pessoal,Charles Duhigg,39,22,Marina,156,88,68,3,March
+162,2025-03-02,87,7,3,2,Cliente 87,Pelotas,49,It: A Coisa,Terror,Stephen King,94,58,Carlos,282,174,108,3,March
+163,2025-06-02,78,19,3,1,Cliente 78,Porto Alegre,49,A Menina que Roubava Livros,Romance,Markus Zusak,78,43,Ana,234,129,105,6,June
+164,2025-10-03,79,2,2,1,Cliente 79,Rio Grande,50,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,Ana,200,96,104,10,October
+165,2025-02-17,43,10,3,2,Cliente 43,Pelotas,20,Verity,Romance,Colleen Hoover,71,30,Carlos,213,90,123,2,February
+166,2025-07-30,97,18,1,3,Cliente 97,Rio Grande,39,Coraline,Fantasia,Neil Gaiman,42,21,João,42,21,21,7,July
+167,2025-12-09,31,17,3,1,Cliente 31,Porto Alegre,37,Extraordinário,Infantil,R.J. Palacio,92,41,Ana,276,123,153,12,December
+168,2025-05-19,99,5,3,4,Cliente 99,Porto Alegre,65,O Pequeno Príncipe,Infantil,Antoine de Saint-Exupéry,74,27,Marina,222,81,141,5,May
+169,2025-04-20,17,12,3,3,Cliente 17,Pelotas,30,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,João,255,129,126,4,April
+170,2025-07-02,92,6,3,4,Cliente 92,Porto Alegre,41,A Revolução dos Bichos,Ficção,George Orwell,66,40,Marina,198,120,78,7,July
+171,2025-01-28,83,9,4,3,Cliente 83,Pelotas,61,O Senhor dos Anéis,Fantasia,J.R.R. Tolkien,81,42,João,324,168,156,1,January
+172,2025-07-16,54,20,3,2,Cliente 54,Pelotas,41,O Alquimista,Ficção,Paulo Coelho,86,63,Carlos,258,189,69,7,July
+173,2025-07-10,62,1,1,4,Cliente 62,Pelotas,66,Dom Casmurro,Clássico,Machado de Assis,102,58,Marina,102,58,44,7,July
+174,2025-11-11,87,15,1,4,Cliente 87,Pelotas,49,Python para Dados,Tecnologia,Autor Diversos,101,43,Marina,101,43,58,11,November
+175,2025-02-20,32,6,3,2,Cliente 32,Porto Alegre,47,A Revolução dos Bichos,Ficção,George Orwell,66,40,Carlos,198,120,78,2,February
+176,2025-05-29,40,19,2,4,Cliente 40,Pelotas,69,A Menina que Roubava Livros,Romance,Markus Zusak,78,43,Marina,156,86,70,5,May
+177,2025-09-25,13,18,4,3,Cliente 13,Pelotas,32,Coraline,Fantasia,Neil Gaiman,42,21,João,168,84,84,9,September
+178,2025-02-19,84,6,3,1,Cliente 84,Rio Grande,43,A Revolução dos Bichos,Ficção,George Orwell,66,40,Ana,198,120,78,2,February
+179,2025-09-03,35,13,3,1,Cliente 35,Porto Alegre,42,Sapiens,História,Yuval Noah Harari,85,55,Ana,255,165,90,9,September
+180,2025-04-23,5,1,3,2,Cliente 5,Porto Alegre,69,Dom Casmurro,Clássico,Machado de Assis,102,58,Carlos,306,174,132,4,April
+181,2025-06-19,73,13,2,3,Cliente 73,Rio Grande,19,Sapiens,História,Yuval Noah Harari,85,55,João,170,110,60,6,June
+182,2025-06-15,29,7,2,4,Cliente 29,Porto Alegre,61,It: A Coisa,Terror,Stephen King,94,58,Marina,188,116,72,6,June
+183,2025-01-14,70,15,2,4,Cliente 70,Pelotas,66,Python para Dados,Tecnologia,Autor Diversos,101,43,Marina,202,86,116,1,January
+184,2025-07-22,25,12,4,1,Cliente 25,Pelotas,62,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,Ana,340,172,168,7,July
+185,2025-10-15,95,1,1,4,Cliente 95,Pelotas,51,Dom Casmurro,Clássico,Machado de Assis,102,58,Marina,102,58,44,10,October
+186,2025-07-08,22,15,4,1,Cliente 22,Porto Alegre,45,Python para Dados,Tecnologia,Autor Diversos,101,43,Ana,404,172,232,7,July
+187,2025-06-04,66,4,2,2,Cliente 66,Rio Grande,19,1984,Ficção,George Orwell,97,62,Carlos,194,124,70,6,June
+188,2025-02-24,45,13,1,4,Cliente 45,Pelotas,23,Sapiens,História,Yuval Noah Harari,85,55,Marina,85,55,30,2,February
+189,2025-07-01,69,5,1,3,Cliente 69,Rio Grande,54,O Pequeno Príncipe,Infantil,Antoine de Saint-Exupéry,74,27,João,74,27,47,7,July
+190,2025-07-29,91,2,2,4,Cliente 91,Rio Grande,55,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,Marina,200,96,104,7,July
+191,2025-03-16,89,1,2,1,Cliente 89,Porto Alegre,28,Dom Casmurro,Clássico,Machado de Assis,102,58,Ana,204,116,88,3,March
+192,2025-10-04,72,16,4,2,Cliente 72,Pelotas,66,O Poder do Hábito,Desenvolvimento Pessoal,Charles Duhigg,39,22,Carlos,156,88,68,10,October
+193,2025-05-13,1,6,2,1,Cliente 1,Rio Grande,68,A Revolução dos Bichos,Ficção,George Orwell,66,40,Ana,132,80,52,5,May
+194,2025-12-09,84,16,1,4,Cliente 84,Rio Grande,43,O Poder do Hábito,Desenvolvimento Pessoal,Charles Duhigg,39,22,Marina,39,22,17,12,December
+195,2025-02-28,44,14,3,1,Cliente 44,Porto Alegre,56,Clean Code,Tecnologia,Robert C. Martin,88,59,Ana,264,177,87,2,February
+196,2025-12-11,87,3,2,1,Cliente 87,Pelotas,49,O Hobbit,Fantasia,J.R.R. Tolkien,50,34,Ana,100,68,32,12,December
+197,2025-07-01,96,15,2,2,Cliente 96,Rio Grande,23,Python para Dados,Tecnologia,Autor Diversos,101,43,Carlos,202,86,116,7,July
+198,2025-12-05,75,3,4,3,Cliente 75,Porto Alegre,45,O Hobbit,Fantasia,J.R.R. Tolkien,50,34,João,200,136,64,12,December
+199,2025-11-17,39,2,4,4,Cliente 39,Pelotas,44,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,Marina,400,192,208,11,November
+200,2025-03-05,54,1,2,2,Cliente 54,Pelotas,41,Dom Casmurro,Clássico,Machado de Assis,102,58,Carlos,204,116,88,3,March
+201,2025-11-23,88,9,1,3,Cliente 88,Pelotas,21,O Senhor dos Anéis,Fantasia,J.R.R. Tolkien,81,42,João,81,42,39,11,November
+202,2025-09-17,75,9,1,1,Cliente 75,Porto Alegre,45,O Senhor dos Anéis,Fantasia,J.R.R. Tolkien,81,42,Ana,81,42,39,9,September
+203,2025-07-12,29,7,3,3,Cliente 29,Porto Alegre,61,It: A Coisa,Terror,Stephen King,94,58,João,282,174,108,7,July
+204,2025-05-23,54,3,2,1,Cliente 54,Pelotas,41,O Hobbit,Fantasia,J.R.R. Tolkien,50,34,Ana,100,68,32,5,May
+205,2025-04-14,90,18,4,1,Cliente 90,Rio Grande,34,Coraline,Fantasia,Neil Gaiman,42,21,Ana,168,84,84,4,April
+206,2025-08-02,16,11,1,2,Cliente 16,Porto Alegre,53,Pai Rico Pai Pobre,Negócios,Robert Kiyosaki,86,30,Carlos,86,30,56,8,August
+207,2025-08-30,99,7,3,1,Cliente 99,Porto Alegre,65,It: A Coisa,Terror,Stephen King,94,58,Ana,282,174,108,8,August
+208,2025-07-28,20,9,2,2,Cliente 20,Porto Alegre,68,O Senhor dos Anéis,Fantasia,J.R.R. Tolkien,81,42,Carlos,162,84,78,7,July
+209,2025-04-03,46,1,1,3,Cliente 46,Pelotas,25,Dom Casmurro,Clássico,Machado de Assis,102,58,João,102,58,44,4,April
+210,2025-05-22,67,14,2,3,Cliente 67,Porto Alegre,20,Clean Code,Tecnologia,Robert C. Martin,88,59,João,176,118,58,5,May
+211,2025-04-22,65,20,2,1,Cliente 65,Porto Alegre,56,O Alquimista,Ficção,Paulo Coelho,86,63,Ana,172,126,46,4,April
+212,2025-02-28,58,6,1,2,Cliente 58,Rio Grande,41,A Revolução dos Bichos,Ficção,George Orwell,66,40,Carlos,66,40,26,2,February
+213,2025-02-12,53,7,1,1,Cliente 53,Rio Grande,61,It: A Coisa,Terror,Stephen King,94,58,Ana,94,58,36,2,February
+214,2025-07-26,1,10,1,2,Cliente 1,Rio Grande,68,Verity,Romance,Colleen Hoover,71,30,Carlos,71,30,41,7,July
+215,2025-09-25,81,7,2,2,Cliente 81,Pelotas,36,It: A Coisa,Terror,Stephen King,94,58,Carlos,188,116,72,9,September
+216,2025-10-23,66,2,2,2,Cliente 66,Rio Grande,19,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,Carlos,200,96,104,10,October
+217,2025-04-28,29,4,3,3,Cliente 29,Porto Alegre,61,1984,Ficção,George Orwell,97,62,João,291,186,105,4,April
+218,2025-01-20,84,17,4,2,Cliente 84,Rio Grande,43,Extraordinário,Infantil,R.J. Palacio,92,41,Carlos,368,164,204,1,January
+219,2025-08-10,70,1,2,3,Cliente 70,Pelotas,66,Dom Casmurro,Clássico,Machado de Assis,102,58,João,204,116,88,8,August
+220,2025-06-15,8,10,4,2,Cliente 8,Porto Alegre,47,Verity,Romance,Colleen Hoover,71,30,Carlos,284,120,164,6,June
+221,2025-05-11,29,19,1,3,Cliente 29,Porto Alegre,61,A Menina que Roubava Livros,Romance,Markus Zusak,78,43,João,78,43,35,5,May
+222,2025-06-05,51,15,2,4,Cliente 51,Pelotas,68,Python para Dados,Tecnologia,Autor Diversos,101,43,Marina,202,86,116,6,June
+223,2025-07-03,33,10,3,3,Cliente 33,Rio Grande,28,Verity,Romance,Colleen Hoover,71,30,João,213,90,123,7,July
+224,2025-03-31,3,19,3,3,Cliente 3,Pelotas,56,A Menina que Roubava Livros,Romance,Markus Zusak,78,43,João,234,129,105,3,March
+225,2025-04-04,60,12,4,1,Cliente 60,Rio Grande,69,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,Ana,340,172,168,4,April
+226,2025-01-13,35,16,1,2,Cliente 35,Porto Alegre,42,O Poder do Hábito,Desenvolvimento Pessoal,Charles Duhigg,39,22,Carlos,39,22,17,1,January
+227,2025-11-18,69,9,4,4,Cliente 69,Rio Grande,54,O Senhor dos Anéis,Fantasia,J.R.R. Tolkien,81,42,Marina,324,168,156,11,November
+228,2025-10-20,91,15,1,1,Cliente 91,Rio Grande,55,Python para Dados,Tecnologia,Autor Diversos,101,43,Ana,101,43,58,10,October
+229,2025-08-18,76,17,3,2,Cliente 76,Pelotas,40,Extraordinário,Infantil,R.J. Palacio,92,41,Carlos,276,123,153,8,August
+230,2025-11-18,84,14,4,4,Cliente 84,Rio Grande,43,Clean Code,Tecnologia,Robert C. Martin,88,59,Marina,352,236,116,11,November
+231,2025-10-19,20,18,3,4,Cliente 20,Porto Alegre,68,Coraline,Fantasia,Neil Gaiman,42,21,Marina,126,63,63,10,October
+232,2025-01-26,73,2,3,4,Cliente 73,Rio Grande,19,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,Marina,300,144,156,1,January
+233,2025-03-16,39,4,1,2,Cliente 39,Pelotas,44,1984,Ficção,George Orwell,97,62,Carlos,97,62,35,3,March
+234,2025-12-30,4,18,4,4,Cliente 4,Porto Alegre,66,Coraline,Fantasia,Neil Gaiman,42,21,Marina,168,84,84,12,December
+235,2025-10-26,19,7,4,4,Cliente 19,Porto Alegre,24,It: A Coisa,Terror,Stephen King,94,58,Marina,376,232,144,10,October
+236,2025-05-30,91,13,3,1,Cliente 91,Rio Grande,55,Sapiens,História,Yuval Noah Harari,85,55,Ana,255,165,90,5,May
+237,2025-05-28,45,15,3,3,Cliente 45,Pelotas,23,Python para Dados,Tecnologia,Autor Diversos,101,43,João,303,129,174,5,May
+238,2025-01-08,43,1,1,2,Cliente 43,Pelotas,20,Dom Casmurro,Clássico,Machado de Assis,102,58,Carlos,102,58,44,1,January
+239,2025-01-29,13,11,2,3,Cliente 13,Pelotas,32,Pai Rico Pai Pobre,Negócios,Robert Kiyosaki,86,30,João,172,60,112,1,January
+240,2025-10-23,13,10,2,1,Cliente 13,Pelotas,32,Verity,Romance,Colleen Hoover,71,30,Ana,142,60,82,10,October
+241,2025-07-28,60,5,3,3,Cliente 60,Rio Grande,69,O Pequeno Príncipe,Infantil,Antoine de Saint-Exupéry,74,27,João,222,81,141,7,July
+242,2025-05-08,57,16,2,4,Cliente 57,Rio Grande,49,O Poder do Hábito,Desenvolvimento Pessoal,Charles Duhigg,39,22,Marina,78,44,34,5,May
+243,2025-12-06,86,11,2,4,Cliente 86,Rio Grande,23,Pai Rico Pai Pobre,Negócios,Robert Kiyosaki,86,30,Marina,172,60,112,12,December
+244,2025-04-26,92,6,2,2,Cliente 92,Porto Alegre,41,A Revolução dos Bichos,Ficção,George Orwell,66,40,Carlos,132,80,52,4,April
+245,2025-05-24,52,9,2,2,Cliente 52,Pelotas,59,O Senhor dos Anéis,Fantasia,J.R.R. Tolkien,81,42,Carlos,162,84,78,5,May
+246,2025-11-14,53,13,3,2,Cliente 53,Rio Grande,61,Sapiens,História,Yuval Noah Harari,85,55,Carlos,255,165,90,11,November
+247,2025-08-23,86,8,2,1,Cliente 86,Rio Grande,23,Orgulho e Preconceito,Romance,Jane Austen,96,38,Ana,192,76,116,8,August
+248,2025-01-07,43,14,2,2,Cliente 43,Pelotas,20,Clean Code,Tecnologia,Robert C. Martin,88,59,Carlos,176,118,58,1,January
+249,2025-02-14,83,1,1,1,Cliente 83,Pelotas,61,Dom Casmurro,Clássico,Machado de Assis,102,58,Ana,102,58,44,2,February
+250,2025-08-27,72,17,3,4,Cliente 72,Pelotas,66,Extraordinário,Infantil,R.J. Palacio,92,41,Marina,276,123,153,8,August
+251,2025-06-04,72,5,4,3,Cliente 72,Pelotas,66,O Pequeno Príncipe,Infantil,Antoine de Saint-Exupéry,74,27,João,296,108,188,6,June
+252,2025-06-30,42,2,4,4,Cliente 42,Rio Grande,58,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,Marina,400,192,208,6,June
+253,2025-08-03,90,9,1,4,Cliente 90,Rio Grande,34,O Senhor dos Anéis,Fantasia,J.R.R. Tolkien,81,42,Marina,81,42,39,8,August
+254,2025-03-29,26,4,1,4,Cliente 26,Rio Grande,23,1984,Ficção,George Orwell,97,62,Marina,97,62,35,3,March
+255,2025-09-13,23,17,3,2,Cliente 23,Porto Alegre,19,Extraordinário,Infantil,R.J. Palacio,92,41,Carlos,276,123,153,9,September
+256,2025-03-14,43,17,4,2,Cliente 43,Pelotas,20,Extraordinário,Infantil,R.J. Palacio,92,41,Carlos,368,164,204,3,March
+257,2025-06-28,77,18,2,2,Cliente 77,Rio Grande,54,Coraline,Fantasia,Neil Gaiman,42,21,Carlos,84,42,42,6,June
+258,2025-07-31,28,16,1,3,Cliente 28,Porto Alegre,45,O Poder do Hábito,Desenvolvimento Pessoal,Charles Duhigg,39,22,João,39,22,17,7,July
+259,2025-10-20,9,8,4,2,Cliente 9,Pelotas,54,Orgulho e Preconceito,Romance,Jane Austen,96,38,Carlos,384,152,232,10,October
+260,2025-08-22,20,11,3,1,Cliente 20,Porto Alegre,68,Pai Rico Pai Pobre,Negócios,Robert Kiyosaki,86,30,Ana,258,90,168,8,August
+261,2025-08-27,56,18,2,4,Cliente 56,Rio Grande,49,Coraline,Fantasia,Neil Gaiman,42,21,Marina,84,42,42,8,August
+262,2025-08-11,83,10,3,3,Cliente 83,Pelotas,61,Verity,Romance,Colleen Hoover,71,30,João,213,90,123,8,August
+263,2025-04-29,39,13,1,3,Cliente 39,Pelotas,44,Sapiens,História,Yuval Noah Harari,85,55,João,85,55,30,4,April
+264,2025-11-09,51,17,4,3,Cliente 51,Pelotas,68,Extraordinário,Infantil,R.J. Palacio,92,41,João,368,164,204,11,November
+265,2025-09-21,12,18,4,3,Cliente 12,Rio Grande,62,Coraline,Fantasia,Neil Gaiman,42,21,João,168,84,84,9,September
+266,2025-07-26,79,10,4,3,Cliente 79,Rio Grande,50,Verity,Romance,Colleen Hoover,71,30,João,284,120,164,7,July
+267,2025-04-05,95,16,4,1,Cliente 95,Pelotas,51,O Poder do Hábito,Desenvolvimento Pessoal,Charles Duhigg,39,22,Ana,156,88,68,4,April
+268,2025-08-10,55,20,2,4,Cliente 55,Pelotas,32,O Alquimista,Ficção,Paulo Coelho,86,63,Marina,172,126,46,8,August
+269,2025-10-03,78,5,2,3,Cliente 78,Porto Alegre,49,O Pequeno Príncipe,Infantil,Antoine de Saint-Exupéry,74,27,João,148,54,94,10,October
+270,2025-08-19,11,13,3,4,Cliente 11,Rio Grande,56,Sapiens,História,Yuval Noah Harari,85,55,Marina,255,165,90,8,August
+271,2025-11-05,26,18,2,2,Cliente 26,Rio Grande,23,Coraline,Fantasia,Neil Gaiman,42,21,Carlos,84,42,42,11,November
+272,2025-04-29,42,17,1,3,Cliente 42,Rio Grande,58,Extraordinário,Infantil,R.J. Palacio,92,41,João,92,41,51,4,April
+273,2025-09-25,27,9,1,3,Cliente 27,Porto Alegre,45,O Senhor dos Anéis,Fantasia,J.R.R. Tolkien,81,42,João,81,42,39,9,September
+274,2025-09-30,11,14,4,4,Cliente 11,Rio Grande,56,Clean Code,Tecnologia,Robert C. Martin,88,59,Marina,352,236,116,9,September
+275,2025-03-05,38,17,1,3,Cliente 38,Porto Alegre,18,Extraordinário,Infantil,R.J. Palacio,92,41,João,92,41,51,3,March
+276,2025-10-25,98,4,3,3,Cliente 98,Porto Alegre,28,1984,Ficção,George Orwell,97,62,João,291,186,105,10,October
+277,2025-12-16,43,18,2,3,Cliente 43,Pelotas,20,Coraline,Fantasia,Neil Gaiman,42,21,João,84,42,42,12,December
+278,2025-01-11,19,20,2,1,Cliente 19,Porto Alegre,24,O Alquimista,Ficção,Paulo Coelho,86,63,Ana,172,126,46,1,January
+279,2025-04-08,64,15,2,1,Cliente 64,Pelotas,29,Python para Dados,Tecnologia,Autor Diversos,101,43,Ana,202,86,116,4,April
+280,2025-03-12,6,11,1,3,Cliente 6,Porto Alegre,49,Pai Rico Pai Pobre,Negócios,Robert Kiyosaki,86,30,João,86,30,56,3,March
+281,2025-12-30,46,12,2,1,Cliente 46,Pelotas,25,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,Ana,170,86,84,12,December
+282,2025-02-27,42,9,4,2,Cliente 42,Rio Grande,58,O Senhor dos Anéis,Fantasia,J.R.R. Tolkien,81,42,Carlos,324,168,156,2,February
+283,2025-10-17,92,13,4,3,Cliente 92,Porto Alegre,41,Sapiens,História,Yuval Noah Harari,85,55,João,340,220,120,10,October
+284,2025-09-08,65,15,4,2,Cliente 65,Porto Alegre,56,Python para Dados,Tecnologia,Autor Diversos,101,43,Carlos,404,172,232,9,September
+285,2025-10-03,99,15,1,4,Cliente 99,Porto Alegre,65,Python para Dados,Tecnologia,Autor Diversos,101,43,Marina,101,43,58,10,October
+286,2025-02-19,72,5,2,2,Cliente 72,Pelotas,66,O Pequeno Príncipe,Infantil,Antoine de Saint-Exupéry,74,27,Carlos,148,54,94,2,February
+287,2025-12-24,59,19,1,4,Cliente 59,Pelotas,58,A Menina que Roubava Livros,Romance,Markus Zusak,78,43,Marina,78,43,35,12,December
+288,2025-08-04,52,20,2,3,Cliente 52,Pelotas,59,O Alquimista,Ficção,Paulo Coelho,86,63,João,172,126,46,8,August
+289,2025-02-21,47,14,3,4,Cliente 47,Pelotas,44,Clean Code,Tecnologia,Robert C. Martin,88,59,Marina,264,177,87,2,February
+290,2025-09-28,7,17,3,4,Cliente 7,Pelotas,21,Extraordinário,Infantil,R.J. Palacio,92,41,Marina,276,123,153,9,September
+291,2025-03-25,11,18,1,2,Cliente 11,Rio Grande,56,Coraline,Fantasia,Neil Gaiman,42,21,Carlos,42,21,21,3,March
+292,2025-10-20,61,3,4,2,Cliente 61,Rio Grande,66,O Hobbit,Fantasia,J.R.R. Tolkien,50,34,Carlos,200,136,64,10,October
+293,2025-05-06,68,2,1,2,Cliente 68,Pelotas,66,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,Carlos,100,48,52,5,May
+294,2025-10-23,25,1,4,3,Cliente 25,Pelotas,62,Dom Casmurro,Clássico,Machado de Assis,102,58,João,408,232,176,10,October
+295,2025-03-13,12,10,2,3,Cliente 12,Rio Grande,62,Verity,Romance,Colleen Hoover,71,30,João,142,60,82,3,March
+296,2025-10-23,26,19,4,2,Cliente 26,Rio Grande,23,A Menina que Roubava Livros,Romance,Markus Zusak,78,43,Carlos,312,172,140,10,October
+297,2025-08-24,12,17,4,3,Cliente 12,Rio Grande,62,Extraordinário,Infantil,R.J. Palacio,92,41,João,368,164,204,8,August
+298,2025-02-25,43,12,2,3,Cliente 43,Pelotas,20,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,João,170,86,84,2,February
+299,2025-12-26,51,1,3,4,Cliente 51,Pelotas,68,Dom Casmurro,Clássico,Machado de Assis,102,58,Marina,306,174,132,12,December
+300,2025-04-20,37,12,2,4,Cliente 37,Pelotas,50,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,Marina,170,86,84,4,April
+301,2025-07-11,46,17,1,2,Cliente 46,Pelotas,25,Extraordinário,Infantil,R.J. Palacio,92,41,Carlos,92,41,51,7,July
+302,2025-04-03,53,3,1,3,Cliente 53,Rio Grande,61,O Hobbit,Fantasia,J.R.R. Tolkien,50,34,João,50,34,16,4,April
+303,2025-12-16,88,11,1,4,Cliente 88,Pelotas,21,Pai Rico Pai Pobre,Negócios,Robert Kiyosaki,86,30,Marina,86,30,56,12,December
+304,2025-02-25,80,17,1,1,Cliente 80,Rio Grande,18,Extraordinário,Infantil,R.J. Palacio,92,41,Ana,92,41,51,2,February
+305,2025-03-01,13,3,1,3,Cliente 13,Pelotas,32,O Hobbit,Fantasia,J.R.R. Tolkien,50,34,João,50,34,16,3,March
+306,2025-05-18,89,8,3,1,Cliente 89,Porto Alegre,28,Orgulho e Preconceito,Romance,Jane Austen,96,38,Ana,288,114,174,5,May
+307,2025-02-08,54,20,3,2,Cliente 54,Pelotas,41,O Alquimista,Ficção,Paulo Coelho,86,63,Carlos,258,189,69,2,February
+308,2025-01-28,57,4,4,3,Cliente 57,Rio Grande,49,1984,Ficção,George Orwell,97,62,João,388,248,140,1,January
+309,2025-02-18,4,7,1,2,Cliente 4,Porto Alegre,66,It: A Coisa,Terror,Stephen King,94,58,Carlos,94,58,36,2,February
+310,2025-05-05,75,14,2,2,Cliente 75,Porto Alegre,45,Clean Code,Tecnologia,Robert C. Martin,88,59,Carlos,176,118,58,5,May
+311,2025-01-13,96,14,1,2,Cliente 96,Rio Grande,23,Clean Code,Tecnologia,Robert C. Martin,88,59,Carlos,88,59,29,1,January
+312,2025-02-05,49,4,3,2,Cliente 49,Rio Grande,54,1984,Ficção,George Orwell,97,62,Carlos,291,186,105,2,February
+313,2025-04-11,7,16,1,2,Cliente 7,Pelotas,21,O Poder do Hábito,Desenvolvimento Pessoal,Charles Duhigg,39,22,Carlos,39,22,17,4,April
+314,2025-10-09,11,1,3,3,Cliente 11,Rio Grande,56,Dom Casmurro,Clássico,Machado de Assis,102,58,João,306,174,132,10,October
+315,2025-03-27,92,17,4,1,Cliente 92,Porto Alegre,41,Extraordinário,Infantil,R.J. Palacio,92,41,Ana,368,164,204,3,March
+316,2025-01-04,54,10,4,3,Cliente 54,Pelotas,41,Verity,Romance,Colleen Hoover,71,30,João,284,120,164,1,January
+317,2025-08-11,87,16,4,3,Cliente 87,Pelotas,49,O Poder do Hábito,Desenvolvimento Pessoal,Charles Duhigg,39,22,João,156,88,68,8,August
+318,2025-12-04,45,16,3,3,Cliente 45,Pelotas,23,O Poder do Hábito,Desenvolvimento Pessoal,Charles Duhigg,39,22,João,117,66,51,12,December
+319,2025-06-15,23,8,1,4,Cliente 23,Porto Alegre,19,Orgulho e Preconceito,Romance,Jane Austen,96,38,Marina,96,38,58,6,June
+320,2025-12-10,28,7,1,4,Cliente 28,Porto Alegre,45,It: A Coisa,Terror,Stephen King,94,58,Marina,94,58,36,12,December
+321,2025-10-05,57,6,2,3,Cliente 57,Rio Grande,49,A Revolução dos Bichos,Ficção,George Orwell,66,40,João,132,80,52,10,October
+322,2025-05-10,26,16,3,1,Cliente 26,Rio Grande,23,O Poder do Hábito,Desenvolvimento Pessoal,Charles Duhigg,39,22,Ana,117,66,51,5,May
+323,2025-01-31,25,20,2,3,Cliente 25,Pelotas,62,O Alquimista,Ficção,Paulo Coelho,86,63,João,172,126,46,1,January
+324,2025-01-11,54,16,4,2,Cliente 54,Pelotas,41,O Poder do Hábito,Desenvolvimento Pessoal,Charles Duhigg,39,22,Carlos,156,88,68,1,January
+325,2025-10-29,29,7,1,4,Cliente 29,Porto Alegre,61,It: A Coisa,Terror,Stephen King,94,58,Marina,94,58,36,10,October
+326,2025-04-06,83,9,3,4,Cliente 83,Pelotas,61,O Senhor dos Anéis,Fantasia,J.R.R. Tolkien,81,42,Marina,243,126,117,4,April
+327,2025-07-09,97,14,2,3,Cliente 97,Rio Grande,39,Clean Code,Tecnologia,Robert C. Martin,88,59,João,176,118,58,7,July
+328,2025-07-11,36,11,2,3,Cliente 36,Rio Grande,56,Pai Rico Pai Pobre,Negócios,Robert Kiyosaki,86,30,João,172,60,112,7,July
+329,2025-09-23,14,14,2,1,Cliente 14,Rio Grande,60,Clean Code,Tecnologia,Robert C. Martin,88,59,Ana,176,118,58,9,September
+330,2025-05-08,78,7,1,1,Cliente 78,Porto Alegre,49,It: A Coisa,Terror,Stephen King,94,58,Ana,94,58,36,5,May
+331,2025-08-26,35,1,1,2,Cliente 35,Porto Alegre,42,Dom Casmurro,Clássico,Machado de Assis,102,58,Carlos,102,58,44,8,August
+332,2025-12-21,30,13,1,3,Cliente 30,Porto Alegre,61,Sapiens,História,Yuval Noah Harari,85,55,João,85,55,30,12,December
+333,2025-04-22,92,20,3,3,Cliente 92,Porto Alegre,41,O Alquimista,Ficção,Paulo Coelho,86,63,João,258,189,69,4,April
+334,2025-11-12,17,3,1,3,Cliente 17,Pelotas,30,O Hobbit,Fantasia,J.R.R. Tolkien,50,34,João,50,34,16,11,November
+335,2025-12-09,67,20,3,4,Cliente 67,Porto Alegre,20,O Alquimista,Ficção,Paulo Coelho,86,63,Marina,258,189,69,12,December
+336,2025-05-25,80,4,2,2,Cliente 80,Rio Grande,18,1984,Ficção,George Orwell,97,62,Carlos,194,124,70,5,May
+337,2025-03-06,30,11,2,1,Cliente 30,Porto Alegre,61,Pai Rico Pai Pobre,Negócios,Robert Kiyosaki,86,30,Ana,172,60,112,3,March
+338,2025-09-04,93,2,4,4,Cliente 93,Rio Grande,22,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,Marina,400,192,208,9,September
+339,2025-08-11,45,14,1,4,Cliente 45,Pelotas,23,Clean Code,Tecnologia,Robert C. Martin,88,59,Marina,88,59,29,8,August
+340,2025-11-09,79,12,2,4,Cliente 79,Rio Grande,50,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,Marina,170,86,84,11,November
+341,2025-04-16,89,17,1,4,Cliente 89,Porto Alegre,28,Extraordinário,Infantil,R.J. Palacio,92,41,Marina,92,41,51,4,April
+342,2025-06-30,51,12,3,2,Cliente 51,Pelotas,68,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,Carlos,255,129,126,6,June
+343,2025-07-03,47,12,2,3,Cliente 47,Pelotas,44,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,João,170,86,84,7,July
+344,2025-08-14,53,1,1,1,Cliente 53,Rio Grande,61,Dom Casmurro,Clássico,Machado de Assis,102,58,Ana,102,58,44,8,August
+345,2025-09-22,64,13,2,1,Cliente 64,Pelotas,29,Sapiens,História,Yuval Noah Harari,85,55,Ana,170,110,60,9,September
+346,2025-10-05,38,14,2,4,Cliente 38,Porto Alegre,18,Clean Code,Tecnologia,Robert C. Martin,88,59,Marina,176,118,58,10,October
+347,2025-03-30,64,2,1,4,Cliente 64,Pelotas,29,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,Marina,100,48,52,3,March
+348,2025-06-25,87,12,2,2,Cliente 87,Pelotas,49,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,Carlos,170,86,84,6,June
+349,2025-01-18,89,16,2,4,Cliente 89,Porto Alegre,28,O Poder do Hábito,Desenvolvimento Pessoal,Charles Duhigg,39,22,Marina,78,44,34,1,January
+350,2025-04-16,7,4,2,1,Cliente 7,Pelotas,21,1984,Ficção,George Orwell,97,62,Ana,194,124,70,4,April
+351,2025-09-28,22,8,2,1,Cliente 22,Porto Alegre,45,Orgulho e Preconceito,Romance,Jane Austen,96,38,Ana,192,76,116,9,September
+352,2025-11-15,81,2,3,3,Cliente 81,Pelotas,36,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,João,300,144,156,11,November
+353,2025-06-16,82,10,2,3,Cliente 82,Rio Grande,19,Verity,Romance,Colleen Hoover,71,30,João,142,60,82,6,June
+354,2025-01-13,41,9,4,1,Cliente 41,Porto Alegre,30,O Senhor dos Anéis,Fantasia,J.R.R. Tolkien,81,42,Ana,324,168,156,1,January
+355,2025-12-03,74,15,2,1,Cliente 74,Rio Grande,19,Python para Dados,Tecnologia,Autor Diversos,101,43,Ana,202,86,116,12,December
+356,2025-02-01,10,13,1,2,Cliente 10,Porto Alegre,40,Sapiens,História,Yuval Noah Harari,85,55,Carlos,85,55,30,2,February
+357,2025-02-09,57,17,4,2,Cliente 57,Rio Grande,49,Extraordinário,Infantil,R.J. Palacio,92,41,Carlos,368,164,204,2,February
+358,2025-05-28,7,16,3,1,Cliente 7,Pelotas,21,O Poder do Hábito,Desenvolvimento Pessoal,Charles Duhigg,39,22,Ana,117,66,51,5,May
+359,2025-08-06,50,2,4,4,Cliente 50,Pelotas,50,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,Marina,400,192,208,8,August
+360,2025-08-07,91,20,4,3,Cliente 91,Rio Grande,55,O Alquimista,Ficção,Paulo Coelho,86,63,João,344,252,92,8,August
+361,2025-03-23,52,20,4,1,Cliente 52,Pelotas,59,O Alquimista,Ficção,Paulo Coelho,86,63,Ana,344,252,92,3,March
+362,2025-11-29,33,14,1,4,Cliente 33,Rio Grande,28,Clean Code,Tecnologia,Robert C. Martin,88,59,Marina,88,59,29,11,November
+363,2025-07-27,1,3,1,1,Cliente 1,Rio Grande,68,O Hobbit,Fantasia,J.R.R. Tolkien,50,34,Ana,50,34,16,7,July
+364,2025-07-20,53,12,1,3,Cliente 53,Rio Grande,61,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,João,85,43,42,7,July
+365,2025-11-28,60,8,3,3,Cliente 60,Rio Grande,69,Orgulho e Preconceito,Romance,Jane Austen,96,38,João,288,114,174,11,November
+366,2025-02-07,34,2,1,2,Cliente 34,Rio Grande,45,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,Carlos,100,48,52,2,February
+367,2025-07-30,4,4,1,2,Cliente 4,Porto Alegre,66,1984,Ficção,George Orwell,97,62,Carlos,97,62,35,7,July
+368,2025-11-23,17,14,4,2,Cliente 17,Pelotas,30,Clean Code,Tecnologia,Robert C. Martin,88,59,Carlos,352,236,116,11,November
+369,2025-09-06,4,16,1,2,Cliente 4,Porto Alegre,66,O Poder do Hábito,Desenvolvimento Pessoal,Charles Duhigg,39,22,Carlos,39,22,17,9,September
+370,2025-08-15,43,19,2,3,Cliente 43,Pelotas,20,A Menina que Roubava Livros,Romance,Markus Zusak,78,43,João,156,86,70,8,August
+371,2025-02-17,90,2,1,4,Cliente 90,Rio Grande,34,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,Marina,100,48,52,2,February
+372,2025-01-18,4,12,3,4,Cliente 4,Porto Alegre,66,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,Marina,255,129,126,1,January
+373,2025-10-22,1,14,3,4,Cliente 1,Rio Grande,68,Clean Code,Tecnologia,Robert C. Martin,88,59,Marina,264,177,87,10,October
+374,2025-07-15,71,6,2,1,Cliente 71,Porto Alegre,34,A Revolução dos Bichos,Ficção,George Orwell,66,40,Ana,132,80,52,7,July
+375,2025-07-06,94,13,3,2,Cliente 94,Rio Grande,69,Sapiens,História,Yuval Noah Harari,85,55,Carlos,255,165,90,7,July
+376,2025-12-11,50,4,3,2,Cliente 50,Pelotas,50,1984,Ficção,George Orwell,97,62,Carlos,291,186,105,12,December
+377,2025-08-12,73,18,4,3,Cliente 73,Rio Grande,19,Coraline,Fantasia,Neil Gaiman,42,21,João,168,84,84,8,August
+378,2025-11-14,61,12,2,3,Cliente 61,Rio Grande,66,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,João,170,86,84,11,November
+379,2025-12-31,35,20,4,1,Cliente 35,Porto Alegre,42,O Alquimista,Ficção,Paulo Coelho,86,63,Ana,344,252,92,12,December
+380,2025-12-03,8,19,4,1,Cliente 8,Porto Alegre,47,A Menina que Roubava Livros,Romance,Markus Zusak,78,43,Ana,312,172,140,12,December
+381,2025-08-17,24,8,1,4,Cliente 24,Porto Alegre,59,Orgulho e Preconceito,Romance,Jane Austen,96,38,Marina,96,38,58,8,August
+382,2025-03-18,83,7,2,3,Cliente 83,Pelotas,61,It: A Coisa,Terror,Stephen King,94,58,João,188,116,72,3,March
+383,2025-07-07,36,16,1,2,Cliente 36,Rio Grande,56,O Poder do Hábito,Desenvolvimento Pessoal,Charles Duhigg,39,22,Carlos,39,22,17,7,July
+384,2025-12-12,50,19,1,4,Cliente 50,Pelotas,50,A Menina que Roubava Livros,Romance,Markus Zusak,78,43,Marina,78,43,35,12,December
+385,2025-09-27,43,6,4,2,Cliente 43,Pelotas,20,A Revolução dos Bichos,Ficção,George Orwell,66,40,Carlos,264,160,104,9,September
+386,2025-04-05,27,20,3,4,Cliente 27,Porto Alegre,45,O Alquimista,Ficção,Paulo Coelho,86,63,Marina,258,189,69,4,April
+387,2025-11-06,32,11,2,2,Cliente 32,Porto Alegre,47,Pai Rico Pai Pobre,Negócios,Robert Kiyosaki,86,30,Carlos,172,60,112,11,November
+388,2025-05-12,78,5,3,1,Cliente 78,Porto Alegre,49,O Pequeno Príncipe,Infantil,Antoine de Saint-Exupéry,74,27,Ana,222,81,141,5,May
+389,2025-02-08,18,16,4,4,Cliente 18,Porto Alegre,49,O Poder do Hábito,Desenvolvimento Pessoal,Charles Duhigg,39,22,Marina,156,88,68,2,February
+390,2025-03-13,28,7,4,2,Cliente 28,Porto Alegre,45,It: A Coisa,Terror,Stephen King,94,58,Carlos,376,232,144,3,March
+391,2025-10-08,29,5,4,2,Cliente 29,Porto Alegre,61,O Pequeno Príncipe,Infantil,Antoine de Saint-Exupéry,74,27,Carlos,296,108,188,10,October
+392,2025-11-29,16,11,4,3,Cliente 16,Porto Alegre,53,Pai Rico Pai Pobre,Negócios,Robert Kiyosaki,86,30,João,344,120,224,11,November
+393,2025-06-09,99,15,4,4,Cliente 99,Porto Alegre,65,Python para Dados,Tecnologia,Autor Diversos,101,43,Marina,404,172,232,6,June
+394,2025-07-06,47,3,4,2,Cliente 47,Pelotas,44,O Hobbit,Fantasia,J.R.R. Tolkien,50,34,Carlos,200,136,64,7,July
+395,2025-07-10,59,5,3,3,Cliente 59,Pelotas,58,O Pequeno Príncipe,Infantil,Antoine de Saint-Exupéry,74,27,João,222,81,141,7,July
+396,2025-04-30,31,5,1,2,Cliente 31,Porto Alegre,37,O Pequeno Príncipe,Infantil,Antoine de Saint-Exupéry,74,27,Carlos,74,27,47,4,April
+397,2025-08-08,4,9,3,4,Cliente 4,Porto Alegre,66,O Senhor dos Anéis,Fantasia,J.R.R. Tolkien,81,42,Marina,243,126,117,8,August
+398,2025-02-22,37,15,2,1,Cliente 37,Pelotas,50,Python para Dados,Tecnologia,Autor Diversos,101,43,Ana,202,86,116,2,February
+399,2025-08-10,17,3,3,4,Cliente 17,Pelotas,30,O Hobbit,Fantasia,J.R.R. Tolkien,50,34,Marina,150,102,48,8,August
+400,2025-05-11,39,6,4,4,Cliente 39,Pelotas,44,A Revolução dos Bichos,Ficção,George Orwell,66,40,Marina,264,160,104,5,May
+401,2025-08-25,48,17,3,2,Cliente 48,Pelotas,26,Extraordinário,Infantil,R.J. Palacio,92,41,Carlos,276,123,153,8,August
+402,2025-09-03,46,8,1,2,Cliente 46,Pelotas,25,Orgulho e Preconceito,Romance,Jane Austen,96,38,Carlos,96,38,58,9,September
+403,2025-08-14,90,11,2,4,Cliente 90,Rio Grande,34,Pai Rico Pai Pobre,Negócios,Robert Kiyosaki,86,30,Marina,172,60,112,8,August
+404,2025-07-27,48,6,3,3,Cliente 48,Pelotas,26,A Revolução dos Bichos,Ficção,George Orwell,66,40,João,198,120,78,7,July
+405,2025-04-06,39,8,1,3,Cliente 39,Pelotas,44,Orgulho e Preconceito,Romance,Jane Austen,96,38,João,96,38,58,4,April
+406,2025-07-19,4,10,3,3,Cliente 4,Porto Alegre,66,Verity,Romance,Colleen Hoover,71,30,João,213,90,123,7,July
+407,2025-09-04,30,3,2,2,Cliente 30,Porto Alegre,61,O Hobbit,Fantasia,J.R.R. Tolkien,50,34,Carlos,100,68,32,9,September
+408,2025-03-13,30,14,3,2,Cliente 30,Porto Alegre,61,Clean Code,Tecnologia,Robert C. Martin,88,59,Carlos,264,177,87,3,March
+409,2025-11-14,22,14,4,4,Cliente 22,Porto Alegre,45,Clean Code,Tecnologia,Robert C. Martin,88,59,Marina,352,236,116,11,November
+410,2025-07-04,75,10,3,1,Cliente 75,Porto Alegre,45,Verity,Romance,Colleen Hoover,71,30,Ana,213,90,123,7,July
+411,2025-01-06,66,12,1,2,Cliente 66,Rio Grande,19,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,Carlos,85,43,42,1,January
+412,2025-07-25,12,6,3,4,Cliente 12,Rio Grande,62,A Revolução dos Bichos,Ficção,George Orwell,66,40,Marina,198,120,78,7,July
+413,2025-02-01,94,12,1,4,Cliente 94,Rio Grande,69,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,Marina,85,43,42,2,February
+414,2025-04-09,36,14,2,1,Cliente 36,Rio Grande,56,Clean Code,Tecnologia,Robert C. Martin,88,59,Ana,176,118,58,4,April
+415,2025-09-13,18,2,3,3,Cliente 18,Porto Alegre,49,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,João,300,144,156,9,September
+416,2025-07-06,90,9,2,4,Cliente 90,Rio Grande,34,O Senhor dos Anéis,Fantasia,J.R.R. Tolkien,81,42,Marina,162,84,78,7,July
+417,2025-03-17,53,10,2,4,Cliente 53,Rio Grande,61,Verity,Romance,Colleen Hoover,71,30,Marina,142,60,82,3,March
+418,2025-06-26,71,17,3,4,Cliente 71,Porto Alegre,34,Extraordinário,Infantil,R.J. Palacio,92,41,Marina,276,123,153,6,June
+419,2025-11-11,1,17,1,3,Cliente 1,Rio Grande,68,Extraordinário,Infantil,R.J. Palacio,92,41,João,92,41,51,11,November
+420,2025-10-14,58,3,2,3,Cliente 58,Rio Grande,41,O Hobbit,Fantasia,J.R.R. Tolkien,50,34,João,100,68,32,10,October
+421,2025-12-15,90,19,2,1,Cliente 90,Rio Grande,34,A Menina que Roubava Livros,Romance,Markus Zusak,78,43,Ana,156,86,70,12,December
+422,2025-09-12,87,1,3,2,Cliente 87,Pelotas,49,Dom Casmurro,Clássico,Machado de Assis,102,58,Carlos,306,174,132,9,September
+423,2025-11-21,90,12,3,3,Cliente 90,Rio Grande,34,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,João,255,129,126,11,November
+424,2025-07-09,6,7,3,2,Cliente 6,Porto Alegre,49,It: A Coisa,Terror,Stephen King,94,58,Carlos,282,174,108,7,July
+425,2025-11-04,70,4,3,2,Cliente 70,Pelotas,66,1984,Ficção,George Orwell,97,62,Carlos,291,186,105,11,November
+426,2025-12-11,44,10,3,3,Cliente 44,Porto Alegre,56,Verity,Romance,Colleen Hoover,71,30,João,213,90,123,12,December
+427,2025-05-07,72,13,4,4,Cliente 72,Pelotas,66,Sapiens,História,Yuval Noah Harari,85,55,Marina,340,220,120,5,May
+428,2025-10-14,24,2,3,1,Cliente 24,Porto Alegre,59,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,Ana,300,144,156,10,October
+429,2025-09-11,86,10,1,2,Cliente 86,Rio Grande,23,Verity,Romance,Colleen Hoover,71,30,Carlos,71,30,41,9,September
+430,2025-08-01,19,4,2,4,Cliente 19,Porto Alegre,24,1984,Ficção,George Orwell,97,62,Marina,194,124,70,8,August
+431,2025-09-07,18,18,1,3,Cliente 18,Porto Alegre,49,Coraline,Fantasia,Neil Gaiman,42,21,João,42,21,21,9,September
+432,2025-03-25,95,5,1,2,Cliente 95,Pelotas,51,O Pequeno Príncipe,Infantil,Antoine de Saint-Exupéry,74,27,Carlos,74,27,47,3,March
+433,2025-01-13,30,19,4,2,Cliente 30,Porto Alegre,61,A Menina que Roubava Livros,Romance,Markus Zusak,78,43,Carlos,312,172,140,1,January
+434,2025-02-14,42,2,3,2,Cliente 42,Rio Grande,58,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,Carlos,300,144,156,2,February
+435,2025-05-07,33,12,2,4,Cliente 33,Rio Grande,28,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,Marina,170,86,84,5,May
+436,2025-04-24,74,17,1,4,Cliente 74,Rio Grande,19,Extraordinário,Infantil,R.J. Palacio,92,41,Marina,92,41,51,4,April
+437,2025-10-03,12,10,3,4,Cliente 12,Rio Grande,62,Verity,Romance,Colleen Hoover,71,30,Marina,213,90,123,10,October
+438,2025-07-24,94,2,3,2,Cliente 94,Rio Grande,69,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,Carlos,300,144,156,7,July
+439,2025-12-03,27,6,4,2,Cliente 27,Porto Alegre,45,A Revolução dos Bichos,Ficção,George Orwell,66,40,Carlos,264,160,104,12,December
+440,2025-09-30,39,8,4,1,Cliente 39,Pelotas,44,Orgulho e Preconceito,Romance,Jane Austen,96,38,Ana,384,152,232,9,September
+441,2025-02-27,9,19,4,1,Cliente 9,Pelotas,54,A Menina que Roubava Livros,Romance,Markus Zusak,78,43,Ana,312,172,140,2,February
+442,2025-11-24,21,11,2,4,Cliente 21,Porto Alegre,39,Pai Rico Pai Pobre,Negócios,Robert Kiyosaki,86,30,Marina,172,60,112,11,November
+443,2025-08-07,76,12,1,4,Cliente 76,Pelotas,40,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,Marina,85,43,42,8,August
+444,2025-04-19,29,9,4,3,Cliente 29,Porto Alegre,61,O Senhor dos Anéis,Fantasia,J.R.R. Tolkien,81,42,João,324,168,156,4,April
+445,2025-10-06,33,2,4,4,Cliente 33,Rio Grande,28,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,Marina,400,192,208,10,October
+446,2025-06-23,62,8,4,1,Cliente 62,Pelotas,66,Orgulho e Preconceito,Romance,Jane Austen,96,38,Ana,384,152,232,6,June
+447,2025-11-24,15,11,1,1,Cliente 15,Rio Grande,46,Pai Rico Pai Pobre,Negócios,Robert Kiyosaki,86,30,Ana,86,30,56,11,November
+448,2025-09-21,2,4,1,1,Cliente 2,Porto Alegre,49,1984,Ficção,George Orwell,97,62,Ana,97,62,35,9,September
+449,2025-11-11,52,10,4,2,Cliente 52,Pelotas,59,Verity,Romance,Colleen Hoover,71,30,Carlos,284,120,164,11,November
+450,2025-04-21,44,20,4,2,Cliente 44,Porto Alegre,56,O Alquimista,Ficção,Paulo Coelho,86,63,Carlos,344,252,92,4,April
+451,2025-07-06,54,16,3,4,Cliente 54,Pelotas,41,O Poder do Hábito,Desenvolvimento Pessoal,Charles Duhigg,39,22,Marina,117,66,51,7,July
+452,2025-09-26,18,8,4,3,Cliente 18,Porto Alegre,49,Orgulho e Preconceito,Romance,Jane Austen,96,38,João,384,152,232,9,September
+453,2025-08-17,3,4,2,3,Cliente 3,Pelotas,56,1984,Ficção,George Orwell,97,62,João,194,124,70,8,August
+454,2025-06-05,7,10,2,3,Cliente 7,Pelotas,21,Verity,Romance,Colleen Hoover,71,30,João,142,60,82,6,June
+455,2025-07-08,43,12,4,2,Cliente 43,Pelotas,20,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,Carlos,340,172,168,7,July
+456,2025-09-29,82,14,1,1,Cliente 82,Rio Grande,19,Clean Code,Tecnologia,Robert C. Martin,88,59,Ana,88,59,29,9,September
+457,2025-01-02,38,16,3,1,Cliente 38,Porto Alegre,18,O Poder do Hábito,Desenvolvimento Pessoal,Charles Duhigg,39,22,Ana,117,66,51,1,January
+458,2025-09-03,37,18,1,2,Cliente 37,Pelotas,50,Coraline,Fantasia,Neil Gaiman,42,21,Carlos,42,21,21,9,September
+459,2025-07-29,58,12,4,3,Cliente 58,Rio Grande,41,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,João,340,172,168,7,July
+460,2025-10-13,33,18,2,3,Cliente 33,Rio Grande,28,Coraline,Fantasia,Neil Gaiman,42,21,João,84,42,42,10,October
+461,2025-12-25,59,7,3,4,Cliente 59,Pelotas,58,It: A Coisa,Terror,Stephen King,94,58,Marina,282,174,108,12,December
+462,2025-01-13,95,20,1,4,Cliente 95,Pelotas,51,O Alquimista,Ficção,Paulo Coelho,86,63,Marina,86,63,23,1,January
+463,2025-04-06,11,7,1,3,Cliente 11,Rio Grande,56,It: A Coisa,Terror,Stephen King,94,58,João,94,58,36,4,April
+464,2025-08-09,68,9,4,2,Cliente 68,Pelotas,66,O Senhor dos Anéis,Fantasia,J.R.R. Tolkien,81,42,Carlos,324,168,156,8,August
+465,2025-08-26,82,1,3,3,Cliente 82,Rio Grande,19,Dom Casmurro,Clássico,Machado de Assis,102,58,João,306,174,132,8,August
+466,2025-04-04,68,6,2,4,Cliente 68,Pelotas,66,A Revolução dos Bichos,Ficção,George Orwell,66,40,Marina,132,80,52,4,April
+467,2025-12-04,98,6,4,3,Cliente 98,Porto Alegre,28,A Revolução dos Bichos,Ficção,George Orwell,66,40,João,264,160,104,12,December
+468,2025-09-26,93,12,3,2,Cliente 93,Rio Grande,22,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,Carlos,255,129,126,9,September
+469,2025-06-20,88,12,1,1,Cliente 88,Pelotas,21,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,Ana,85,43,42,6,June
+470,2025-04-04,22,10,4,2,Cliente 22,Porto Alegre,45,Verity,Romance,Colleen Hoover,71,30,Carlos,284,120,164,4,April
+471,2025-05-29,66,6,1,2,Cliente 66,Rio Grande,19,A Revolução dos Bichos,Ficção,George Orwell,66,40,Carlos,66,40,26,5,May
+472,2025-04-22,44,17,1,4,Cliente 44,Porto Alegre,56,Extraordinário,Infantil,R.J. Palacio,92,41,Marina,92,41,51,4,April
+473,2025-02-24,6,19,4,2,Cliente 6,Porto Alegre,49,A Menina que Roubava Livros,Romance,Markus Zusak,78,43,Carlos,312,172,140,2,February
+474,2025-12-03,42,18,4,2,Cliente 42,Rio Grande,58,Coraline,Fantasia,Neil Gaiman,42,21,Carlos,168,84,84,12,December
+475,2025-04-26,25,6,4,4,Cliente 25,Pelotas,62,A Revolução dos Bichos,Ficção,George Orwell,66,40,Marina,264,160,104,4,April
+476,2025-05-23,57,19,4,4,Cliente 57,Rio Grande,49,A Menina que Roubava Livros,Romance,Markus Zusak,78,43,Marina,312,172,140,5,May
+477,2025-07-20,85,10,4,1,Cliente 85,Porto Alegre,49,Verity,Romance,Colleen Hoover,71,30,Ana,284,120,164,7,July
+478,2025-06-29,55,8,1,3,Cliente 55,Pelotas,32,Orgulho e Preconceito,Romance,Jane Austen,96,38,João,96,38,58,6,June
+479,2025-07-21,16,6,2,2,Cliente 16,Porto Alegre,53,A Revolução dos Bichos,Ficção,George Orwell,66,40,Carlos,132,80,52,7,July
+480,2025-12-30,95,7,2,4,Cliente 95,Pelotas,51,It: A Coisa,Terror,Stephen King,94,58,Marina,188,116,72,12,December
+481,2025-02-22,14,1,4,1,Cliente 14,Rio Grande,60,Dom Casmurro,Clássico,Machado de Assis,102,58,Ana,408,232,176,2,February
+482,2025-06-29,39,18,1,3,Cliente 39,Pelotas,44,Coraline,Fantasia,Neil Gaiman,42,21,João,42,21,21,6,June
+483,2025-11-09,28,20,2,4,Cliente 28,Porto Alegre,45,O Alquimista,Ficção,Paulo Coelho,86,63,Marina,172,126,46,11,November
+484,2025-11-04,96,12,2,3,Cliente 96,Rio Grande,23,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,João,170,86,84,11,November
+485,2025-05-17,92,16,2,3,Cliente 92,Porto Alegre,41,O Poder do Hábito,Desenvolvimento Pessoal,Charles Duhigg,39,22,João,78,44,34,5,May
+486,2025-07-01,51,10,1,2,Cliente 51,Pelotas,68,Verity,Romance,Colleen Hoover,71,30,Carlos,71,30,41,7,July
+487,2025-01-01,49,10,4,2,Cliente 49,Rio Grande,54,Verity,Romance,Colleen Hoover,71,30,Carlos,284,120,164,1,January
+488,2025-02-13,9,14,4,4,Cliente 9,Pelotas,54,Clean Code,Tecnologia,Robert C. Martin,88,59,Marina,352,236,116,2,February
+489,2025-08-15,58,20,4,3,Cliente 58,Rio Grande,41,O Alquimista,Ficção,Paulo Coelho,86,63,João,344,252,92,8,August
+490,2025-11-27,45,10,3,4,Cliente 45,Pelotas,23,Verity,Romance,Colleen Hoover,71,30,Marina,213,90,123,11,November
+491,2025-04-08,22,10,3,4,Cliente 22,Porto Alegre,45,Verity,Romance,Colleen Hoover,71,30,Marina,213,90,123,4,April
+492,2025-07-27,32,11,3,3,Cliente 32,Porto Alegre,47,Pai Rico Pai Pobre,Negócios,Robert Kiyosaki,86,30,João,258,90,168,7,July
+493,2025-09-22,69,2,1,4,Cliente 69,Rio Grande,54,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,Marina,100,48,52,9,September
+494,2025-10-15,87,20,2,3,Cliente 87,Pelotas,49,O Alquimista,Ficção,Paulo Coelho,86,63,João,172,126,46,10,October
+495,2025-09-28,69,8,2,3,Cliente 69,Rio Grande,54,Orgulho e Preconceito,Romance,Jane Austen,96,38,João,192,76,116,9,September
+496,2025-05-20,42,7,1,3,Cliente 42,Rio Grande,58,It: A Coisa,Terror,Stephen King,94,58,João,94,58,36,5,May
+497,2025-08-25,53,8,1,3,Cliente 53,Rio Grande,61,Orgulho e Preconceito,Romance,Jane Austen,96,38,João,96,38,58,8,August
+498,2025-03-13,96,1,4,1,Cliente 96,Rio Grande,23,Dom Casmurro,Clássico,Machado de Assis,102,58,Ana,408,232,176,3,March
+499,2025-06-04,59,2,4,3,Cliente 59,Pelotas,58,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,João,400,192,208,6,June
+500,2025-07-09,74,18,3,2,Cliente 74,Rio Grande,19,Coraline,Fantasia,Neil Gaiman,42,21,Carlos,126,63,63,7,July
+501,2025-09-25,39,15,3,2,Cliente 39,Pelotas,44,Python para Dados,Tecnologia,Autor Diversos,101,43,Carlos,303,129,174,9,September
+502,2025-11-17,15,1,1,2,Cliente 15,Rio Grande,46,Dom Casmurro,Clássico,Machado de Assis,102,58,Carlos,102,58,44,11,November
+503,2025-04-17,71,5,3,3,Cliente 71,Porto Alegre,34,O Pequeno Príncipe,Infantil,Antoine de Saint-Exupéry,74,27,João,222,81,141,4,April
+504,2025-08-20,29,2,2,2,Cliente 29,Porto Alegre,61,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,Carlos,200,96,104,8,August
+505,2025-02-11,3,20,1,1,Cliente 3,Pelotas,56,O Alquimista,Ficção,Paulo Coelho,86,63,Ana,86,63,23,2,February
+506,2025-07-09,83,3,1,4,Cliente 83,Pelotas,61,O Hobbit,Fantasia,J.R.R. Tolkien,50,34,Marina,50,34,16,7,July
+507,2025-05-19,10,19,2,3,Cliente 10,Porto Alegre,40,A Menina que Roubava Livros,Romance,Markus Zusak,78,43,João,156,86,70,5,May
+508,2025-04-13,92,18,4,2,Cliente 92,Porto Alegre,41,Coraline,Fantasia,Neil Gaiman,42,21,Carlos,168,84,84,4,April
+509,2025-06-20,29,18,4,1,Cliente 29,Porto Alegre,61,Coraline,Fantasia,Neil Gaiman,42,21,Ana,168,84,84,6,June
+510,2025-12-17,79,14,2,4,Cliente 79,Rio Grande,50,Clean Code,Tecnologia,Robert C. Martin,88,59,Marina,176,118,58,12,December
+511,2025-09-30,35,8,2,1,Cliente 35,Porto Alegre,42,Orgulho e Preconceito,Romance,Jane Austen,96,38,Ana,192,76,116,9,September
+512,2025-08-09,6,12,3,2,Cliente 6,Porto Alegre,49,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,Carlos,255,129,126,8,August
+513,2025-08-01,12,10,1,1,Cliente 12,Rio Grande,62,Verity,Romance,Colleen Hoover,71,30,Ana,71,30,41,8,August
+514,2025-12-07,38,20,3,4,Cliente 38,Porto Alegre,18,O Alquimista,Ficção,Paulo Coelho,86,63,Marina,258,189,69,12,December
+515,2025-02-25,77,17,2,2,Cliente 77,Rio Grande,54,Extraordinário,Infantil,R.J. Palacio,92,41,Carlos,184,82,102,2,February
+516,2025-12-08,93,11,3,4,Cliente 93,Rio Grande,22,Pai Rico Pai Pobre,Negócios,Robert Kiyosaki,86,30,Marina,258,90,168,12,December
+517,2025-04-12,19,2,2,1,Cliente 19,Porto Alegre,24,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,Ana,200,96,104,4,April
+518,2025-07-11,67,4,3,3,Cliente 67,Porto Alegre,20,1984,Ficção,George Orwell,97,62,João,291,186,105,7,July
+519,2025-11-06,8,1,3,3,Cliente 8,Porto Alegre,47,Dom Casmurro,Clássico,Machado de Assis,102,58,João,306,174,132,11,November
+520,2025-07-19,8,15,4,3,Cliente 8,Porto Alegre,47,Python para Dados,Tecnologia,Autor Diversos,101,43,João,404,172,232,7,July
+521,2025-08-21,84,13,2,3,Cliente 84,Rio Grande,43,Sapiens,História,Yuval Noah Harari,85,55,João,170,110,60,8,August
+522,2025-08-15,47,8,3,4,Cliente 47,Pelotas,44,Orgulho e Preconceito,Romance,Jane Austen,96,38,Marina,288,114,174,8,August
+523,2025-05-19,4,4,1,3,Cliente 4,Porto Alegre,66,1984,Ficção,George Orwell,97,62,João,97,62,35,5,May
+524,2025-12-10,51,10,3,4,Cliente 51,Pelotas,68,Verity,Romance,Colleen Hoover,71,30,Marina,213,90,123,12,December
+525,2025-11-01,85,19,3,2,Cliente 85,Porto Alegre,49,A Menina que Roubava Livros,Romance,Markus Zusak,78,43,Carlos,234,129,105,11,November
+526,2025-05-29,67,18,1,3,Cliente 67,Porto Alegre,20,Coraline,Fantasia,Neil Gaiman,42,21,João,42,21,21,5,May
+527,2025-04-25,45,5,2,4,Cliente 45,Pelotas,23,O Pequeno Príncipe,Infantil,Antoine de Saint-Exupéry,74,27,Marina,148,54,94,4,April
+528,2025-03-04,8,19,4,3,Cliente 8,Porto Alegre,47,A Menina que Roubava Livros,Romance,Markus Zusak,78,43,João,312,172,140,3,March
+529,2025-04-14,87,16,4,3,Cliente 87,Pelotas,49,O Poder do Hábito,Desenvolvimento Pessoal,Charles Duhigg,39,22,João,156,88,68,4,April
+530,2025-12-05,16,1,4,3,Cliente 16,Porto Alegre,53,Dom Casmurro,Clássico,Machado de Assis,102,58,João,408,232,176,12,December
+531,2025-12-25,77,12,1,4,Cliente 77,Rio Grande,54,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,Marina,85,43,42,12,December
+532,2025-06-05,67,2,3,1,Cliente 67,Porto Alegre,20,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,Ana,300,144,156,6,June
+533,2025-09-30,9,8,2,3,Cliente 9,Pelotas,54,Orgulho e Preconceito,Romance,Jane Austen,96,38,João,192,76,116,9,September
+534,2025-01-06,60,18,3,3,Cliente 60,Rio Grande,69,Coraline,Fantasia,Neil Gaiman,42,21,João,126,63,63,1,January
+535,2025-05-27,78,16,4,2,Cliente 78,Porto Alegre,49,O Poder do Hábito,Desenvolvimento Pessoal,Charles Duhigg,39,22,Carlos,156,88,68,5,May
+536,2025-07-03,77,5,3,1,Cliente 77,Rio Grande,54,O Pequeno Príncipe,Infantil,Antoine de Saint-Exupéry,74,27,Ana,222,81,141,7,July
+537,2025-01-28,71,13,1,4,Cliente 71,Porto Alegre,34,Sapiens,História,Yuval Noah Harari,85,55,Marina,85,55,30,1,January
+538,2025-02-07,15,19,1,2,Cliente 15,Rio Grande,46,A Menina que Roubava Livros,Romance,Markus Zusak,78,43,Carlos,78,43,35,2,February
+539,2025-04-29,71,3,2,3,Cliente 71,Porto Alegre,34,O Hobbit,Fantasia,J.R.R. Tolkien,50,34,João,100,68,32,4,April
+540,2025-10-20,98,8,2,2,Cliente 98,Porto Alegre,28,Orgulho e Preconceito,Romance,Jane Austen,96,38,Carlos,192,76,116,10,October
+541,2025-09-01,41,12,4,2,Cliente 41,Porto Alegre,30,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,Carlos,340,172,168,9,September
+542,2025-03-09,22,2,2,3,Cliente 22,Porto Alegre,45,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,João,200,96,104,3,March
+543,2025-08-02,24,11,3,1,Cliente 24,Porto Alegre,59,Pai Rico Pai Pobre,Negócios,Robert Kiyosaki,86,30,Ana,258,90,168,8,August
+544,2025-08-06,44,12,1,1,Cliente 44,Porto Alegre,56,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,Ana,85,43,42,8,August
+545,2025-06-26,1,18,1,2,Cliente 1,Rio Grande,68,Coraline,Fantasia,Neil Gaiman,42,21,Carlos,42,21,21,6,June
+546,2025-10-26,10,13,1,3,Cliente 10,Porto Alegre,40,Sapiens,História,Yuval Noah Harari,85,55,João,85,55,30,10,October
+547,2025-06-13,80,5,2,4,Cliente 80,Rio Grande,18,O Pequeno Príncipe,Infantil,Antoine de Saint-Exupéry,74,27,Marina,148,54,94,6,June
+548,2025-02-27,72,12,1,2,Cliente 72,Pelotas,66,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,Carlos,85,43,42,2,February
+549,2025-09-26,56,2,1,4,Cliente 56,Rio Grande,49,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,Marina,100,48,52,9,September
+550,2025-11-04,89,5,1,2,Cliente 89,Porto Alegre,28,O Pequeno Príncipe,Infantil,Antoine de Saint-Exupéry,74,27,Carlos,74,27,47,11,November
+551,2025-02-27,50,7,4,2,Cliente 50,Pelotas,50,It: A Coisa,Terror,Stephen King,94,58,Carlos,376,232,144,2,February
+552,2025-10-15,12,12,4,3,Cliente 12,Rio Grande,62,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,João,340,172,168,10,October
+553,2025-04-15,89,16,2,3,Cliente 89,Porto Alegre,28,O Poder do Hábito,Desenvolvimento Pessoal,Charles Duhigg,39,22,João,78,44,34,4,April
+554,2025-08-16,81,8,1,4,Cliente 81,Pelotas,36,Orgulho e Preconceito,Romance,Jane Austen,96,38,Marina,96,38,58,8,August
+555,2025-09-04,60,9,2,4,Cliente 60,Rio Grande,69,O Senhor dos Anéis,Fantasia,J.R.R. Tolkien,81,42,Marina,162,84,78,9,September
+556,2025-07-07,26,15,1,1,Cliente 26,Rio Grande,23,Python para Dados,Tecnologia,Autor Diversos,101,43,Ana,101,43,58,7,July
+557,2025-03-24,78,5,1,3,Cliente 78,Porto Alegre,49,O Pequeno Príncipe,Infantil,Antoine de Saint-Exupéry,74,27,João,74,27,47,3,March
+558,2025-07-05,41,13,1,2,Cliente 41,Porto Alegre,30,Sapiens,História,Yuval Noah Harari,85,55,Carlos,85,55,30,7,July
+559,2025-09-09,36,5,2,2,Cliente 36,Rio Grande,56,O Pequeno Príncipe,Infantil,Antoine de Saint-Exupéry,74,27,Carlos,148,54,94,9,September
+560,2025-12-21,23,11,2,1,Cliente 23,Porto Alegre,19,Pai Rico Pai Pobre,Negócios,Robert Kiyosaki,86,30,Ana,172,60,112,12,December
+561,2025-08-26,43,10,1,3,Cliente 43,Pelotas,20,Verity,Romance,Colleen Hoover,71,30,João,71,30,41,8,August
+562,2025-12-26,6,20,3,2,Cliente 6,Porto Alegre,49,O Alquimista,Ficção,Paulo Coelho,86,63,Carlos,258,189,69,12,December
+563,2025-07-03,69,13,2,1,Cliente 69,Rio Grande,54,Sapiens,História,Yuval Noah Harari,85,55,Ana,170,110,60,7,July
+564,2025-10-11,43,9,4,1,Cliente 43,Pelotas,20,O Senhor dos Anéis,Fantasia,J.R.R. Tolkien,81,42,Ana,324,168,156,10,October
+565,2025-07-29,25,14,2,2,Cliente 25,Pelotas,62,Clean Code,Tecnologia,Robert C. Martin,88,59,Carlos,176,118,58,7,July
+566,2025-10-31,18,18,1,2,Cliente 18,Porto Alegre,49,Coraline,Fantasia,Neil Gaiman,42,21,Carlos,42,21,21,10,October
+567,2025-10-23,62,15,3,4,Cliente 62,Pelotas,66,Python para Dados,Tecnologia,Autor Diversos,101,43,Marina,303,129,174,10,October
+568,2025-04-07,13,10,1,3,Cliente 13,Pelotas,32,Verity,Romance,Colleen Hoover,71,30,João,71,30,41,4,April
+569,2025-07-27,43,7,4,4,Cliente 43,Pelotas,20,It: A Coisa,Terror,Stephen King,94,58,Marina,376,232,144,7,July
+570,2025-05-17,78,8,2,1,Cliente 78,Porto Alegre,49,Orgulho e Preconceito,Romance,Jane Austen,96,38,Ana,192,76,116,5,May
+571,2025-07-03,28,3,2,2,Cliente 28,Porto Alegre,45,O Hobbit,Fantasia,J.R.R. Tolkien,50,34,Carlos,100,68,32,7,July
+572,2025-03-17,18,15,1,4,Cliente 18,Porto Alegre,49,Python para Dados,Tecnologia,Autor Diversos,101,43,Marina,101,43,58,3,March
+573,2025-10-14,59,16,1,1,Cliente 59,Pelotas,58,O Poder do Hábito,Desenvolvimento Pessoal,Charles Duhigg,39,22,Ana,39,22,17,10,October
+574,2025-05-22,60,4,4,3,Cliente 60,Rio Grande,69,1984,Ficção,George Orwell,97,62,João,388,248,140,5,May
+575,2025-08-25,63,6,3,2,Cliente 63,Rio Grande,69,A Revolução dos Bichos,Ficção,George Orwell,66,40,Carlos,198,120,78,8,August
+576,2025-01-25,57,1,4,4,Cliente 57,Rio Grande,49,Dom Casmurro,Clássico,Machado de Assis,102,58,Marina,408,232,176,1,January
+577,2025-10-17,92,4,3,3,Cliente 92,Porto Alegre,41,1984,Ficção,George Orwell,97,62,João,291,186,105,10,October
+578,2025-03-08,51,11,2,4,Cliente 51,Pelotas,68,Pai Rico Pai Pobre,Negócios,Robert Kiyosaki,86,30,Marina,172,60,112,3,March
+579,2025-09-07,56,12,3,1,Cliente 56,Rio Grande,49,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,Ana,255,129,126,9,September
+580,2025-04-28,27,5,3,3,Cliente 27,Porto Alegre,45,O Pequeno Príncipe,Infantil,Antoine de Saint-Exupéry,74,27,João,222,81,141,4,April
+581,2025-03-14,32,16,2,4,Cliente 32,Porto Alegre,47,O Poder do Hábito,Desenvolvimento Pessoal,Charles Duhigg,39,22,Marina,78,44,34,3,March
+582,2025-10-09,9,13,2,3,Cliente 9,Pelotas,54,Sapiens,História,Yuval Noah Harari,85,55,João,170,110,60,10,October
+583,2025-12-26,96,13,2,1,Cliente 96,Rio Grande,23,Sapiens,História,Yuval Noah Harari,85,55,Ana,170,110,60,12,December
+584,2025-01-10,84,17,4,3,Cliente 84,Rio Grande,43,Extraordinário,Infantil,R.J. Palacio,92,41,João,368,164,204,1,January
+585,2025-07-30,92,7,2,4,Cliente 92,Porto Alegre,41,It: A Coisa,Terror,Stephen King,94,58,Marina,188,116,72,7,July
+586,2025-11-19,97,8,1,1,Cliente 97,Rio Grande,39,Orgulho e Preconceito,Romance,Jane Austen,96,38,Ana,96,38,58,11,November
+587,2025-06-01,68,13,2,2,Cliente 68,Pelotas,66,Sapiens,História,Yuval Noah Harari,85,55,Carlos,170,110,60,6,June
+588,2025-01-05,46,16,2,4,Cliente 46,Pelotas,25,O Poder do Hábito,Desenvolvimento Pessoal,Charles Duhigg,39,22,Marina,78,44,34,1,January
+589,2025-07-14,98,4,2,4,Cliente 98,Porto Alegre,28,1984,Ficção,George Orwell,97,62,Marina,194,124,70,7,July
+590,2025-10-10,67,8,3,1,Cliente 67,Porto Alegre,20,Orgulho e Preconceito,Romance,Jane Austen,96,38,Ana,288,114,174,10,October
+591,2025-04-23,26,16,4,1,Cliente 26,Rio Grande,23,O Poder do Hábito,Desenvolvimento Pessoal,Charles Duhigg,39,22,Ana,156,88,68,4,April
+592,2025-09-28,8,10,2,2,Cliente 8,Porto Alegre,47,Verity,Romance,Colleen Hoover,71,30,Carlos,142,60,82,9,September
+593,2025-06-12,6,12,4,4,Cliente 6,Porto Alegre,49,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,Marina,340,172,168,6,June
+594,2025-04-15,80,12,1,1,Cliente 80,Rio Grande,18,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,Ana,85,43,42,4,April
+595,2025-06-30,24,5,1,2,Cliente 24,Porto Alegre,59,O Pequeno Príncipe,Infantil,Antoine de Saint-Exupéry,74,27,Carlos,74,27,47,6,June
+596,2025-02-13,48,16,2,2,Cliente 48,Pelotas,26,O Poder do Hábito,Desenvolvimento Pessoal,Charles Duhigg,39,22,Carlos,78,44,34,2,February
+597,2025-10-09,94,1,1,1,Cliente 94,Rio Grande,69,Dom Casmurro,Clássico,Machado de Assis,102,58,Ana,102,58,44,10,October
+598,2025-06-24,45,9,4,4,Cliente 45,Pelotas,23,O Senhor dos Anéis,Fantasia,J.R.R. Tolkien,81,42,Marina,324,168,156,6,June
+599,2025-06-11,13,12,3,3,Cliente 13,Pelotas,32,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,João,255,129,126,6,June
+600,2025-12-17,69,5,2,3,Cliente 69,Rio Grande,54,O Pequeno Príncipe,Infantil,Antoine de Saint-Exupéry,74,27,João,148,54,94,12,December
+601,2025-12-06,25,20,1,2,Cliente 25,Pelotas,62,O Alquimista,Ficção,Paulo Coelho,86,63,Carlos,86,63,23,12,December
+602,2025-05-20,20,3,4,3,Cliente 20,Porto Alegre,68,O Hobbit,Fantasia,J.R.R. Tolkien,50,34,João,200,136,64,5,May
+603,2025-05-12,82,5,4,3,Cliente 82,Rio Grande,19,O Pequeno Príncipe,Infantil,Antoine de Saint-Exupéry,74,27,João,296,108,188,5,May
+604,2025-03-28,82,2,1,1,Cliente 82,Rio Grande,19,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,Ana,100,48,52,3,March
+605,2025-06-25,66,14,4,2,Cliente 66,Rio Grande,19,Clean Code,Tecnologia,Robert C. Martin,88,59,Carlos,352,236,116,6,June
+606,2025-07-02,74,2,4,4,Cliente 74,Rio Grande,19,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,Marina,400,192,208,7,July
+607,2025-05-09,45,13,2,2,Cliente 45,Pelotas,23,Sapiens,História,Yuval Noah Harari,85,55,Carlos,170,110,60,5,May
+608,2025-09-03,47,7,4,1,Cliente 47,Pelotas,44,It: A Coisa,Terror,Stephen King,94,58,Ana,376,232,144,9,September
+609,2025-03-30,63,10,1,3,Cliente 63,Rio Grande,69,Verity,Romance,Colleen Hoover,71,30,João,71,30,41,3,March
+610,2025-03-07,76,13,2,4,Cliente 76,Pelotas,40,Sapiens,História,Yuval Noah Harari,85,55,Marina,170,110,60,3,March
+611,2025-06-07,77,16,1,2,Cliente 77,Rio Grande,54,O Poder do Hábito,Desenvolvimento Pessoal,Charles Duhigg,39,22,Carlos,39,22,17,6,June
+612,2025-05-29,55,14,3,3,Cliente 55,Pelotas,32,Clean Code,Tecnologia,Robert C. Martin,88,59,João,264,177,87,5,May
+613,2025-12-06,75,11,1,2,Cliente 75,Porto Alegre,45,Pai Rico Pai Pobre,Negócios,Robert Kiyosaki,86,30,Carlos,86,30,56,12,December
+614,2025-04-26,19,10,1,4,Cliente 19,Porto Alegre,24,Verity,Romance,Colleen Hoover,71,30,Marina,71,30,41,4,April
+615,2025-08-02,35,6,2,2,Cliente 35,Porto Alegre,42,A Revolução dos Bichos,Ficção,George Orwell,66,40,Carlos,132,80,52,8,August
+616,2025-10-21,53,4,4,2,Cliente 53,Rio Grande,61,1984,Ficção,George Orwell,97,62,Carlos,388,248,140,10,October
+617,2025-09-10,26,1,1,2,Cliente 26,Rio Grande,23,Dom Casmurro,Clássico,Machado de Assis,102,58,Carlos,102,58,44,9,September
+618,2025-05-23,14,7,2,3,Cliente 14,Rio Grande,60,It: A Coisa,Terror,Stephen King,94,58,João,188,116,72,5,May
+619,2025-09-07,45,9,3,4,Cliente 45,Pelotas,23,O Senhor dos Anéis,Fantasia,J.R.R. Tolkien,81,42,Marina,243,126,117,9,September
+620,2025-10-29,44,8,2,4,Cliente 44,Porto Alegre,56,Orgulho e Preconceito,Romance,Jane Austen,96,38,Marina,192,76,116,10,October
+621,2025-01-25,88,5,2,3,Cliente 88,Pelotas,21,O Pequeno Príncipe,Infantil,Antoine de Saint-Exupéry,74,27,João,148,54,94,1,January
+622,2025-10-04,65,19,4,3,Cliente 65,Porto Alegre,56,A Menina que Roubava Livros,Romance,Markus Zusak,78,43,João,312,172,140,10,October
+623,2025-03-11,51,10,1,3,Cliente 51,Pelotas,68,Verity,Romance,Colleen Hoover,71,30,João,71,30,41,3,March
+624,2025-04-23,43,11,3,1,Cliente 43,Pelotas,20,Pai Rico Pai Pobre,Negócios,Robert Kiyosaki,86,30,Ana,258,90,168,4,April
+625,2025-12-29,86,15,2,2,Cliente 86,Rio Grande,23,Python para Dados,Tecnologia,Autor Diversos,101,43,Carlos,202,86,116,12,December
+626,2025-04-22,23,6,1,2,Cliente 23,Porto Alegre,19,A Revolução dos Bichos,Ficção,George Orwell,66,40,Carlos,66,40,26,4,April
+627,2025-12-30,56,15,1,4,Cliente 56,Rio Grande,49,Python para Dados,Tecnologia,Autor Diversos,101,43,Marina,101,43,58,12,December
+628,2025-10-30,19,5,2,2,Cliente 19,Porto Alegre,24,O Pequeno Príncipe,Infantil,Antoine de Saint-Exupéry,74,27,Carlos,148,54,94,10,October
+629,2025-04-01,82,19,1,1,Cliente 82,Rio Grande,19,A Menina que Roubava Livros,Romance,Markus Zusak,78,43,Ana,78,43,35,4,April
+630,2025-01-18,76,19,2,3,Cliente 76,Pelotas,40,A Menina que Roubava Livros,Romance,Markus Zusak,78,43,João,156,86,70,1,January
+631,2025-05-29,55,10,2,4,Cliente 55,Pelotas,32,Verity,Romance,Colleen Hoover,71,30,Marina,142,60,82,5,May
+632,2025-08-15,92,12,2,4,Cliente 92,Porto Alegre,41,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,Marina,170,86,84,8,August
+633,2025-08-02,92,4,3,2,Cliente 92,Porto Alegre,41,1984,Ficção,George Orwell,97,62,Carlos,291,186,105,8,August
+634,2025-12-26,60,18,2,4,Cliente 60,Rio Grande,69,Coraline,Fantasia,Neil Gaiman,42,21,Marina,84,42,42,12,December
+635,2025-05-31,59,16,4,3,Cliente 59,Pelotas,58,O Poder do Hábito,Desenvolvimento Pessoal,Charles Duhigg,39,22,João,156,88,68,5,May
+636,2025-07-11,33,8,1,4,Cliente 33,Rio Grande,28,Orgulho e Preconceito,Romance,Jane Austen,96,38,Marina,96,38,58,7,July
+637,2025-02-09,19,4,3,3,Cliente 19,Porto Alegre,24,1984,Ficção,George Orwell,97,62,João,291,186,105,2,February
+638,2025-08-30,28,12,1,1,Cliente 28,Porto Alegre,45,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,Ana,85,43,42,8,August
+639,2025-05-18,52,2,3,1,Cliente 52,Pelotas,59,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,Ana,300,144,156,5,May
+640,2025-12-11,49,4,4,3,Cliente 49,Rio Grande,54,1984,Ficção,George Orwell,97,62,João,388,248,140,12,December
+641,2025-06-29,37,5,3,2,Cliente 37,Pelotas,50,O Pequeno Príncipe,Infantil,Antoine de Saint-Exupéry,74,27,Carlos,222,81,141,6,June
+642,2025-07-19,26,3,3,4,Cliente 26,Rio Grande,23,O Hobbit,Fantasia,J.R.R. Tolkien,50,34,Marina,150,102,48,7,July
+643,2025-07-22,99,9,3,2,Cliente 99,Porto Alegre,65,O Senhor dos Anéis,Fantasia,J.R.R. Tolkien,81,42,Carlos,243,126,117,7,July
+644,2025-03-02,98,18,1,4,Cliente 98,Porto Alegre,28,Coraline,Fantasia,Neil Gaiman,42,21,Marina,42,21,21,3,March
+645,2025-07-11,99,11,2,1,Cliente 99,Porto Alegre,65,Pai Rico Pai Pobre,Negócios,Robert Kiyosaki,86,30,Ana,172,60,112,7,July
+646,2025-01-05,40,3,1,1,Cliente 40,Pelotas,69,O Hobbit,Fantasia,J.R.R. Tolkien,50,34,Ana,50,34,16,1,January
+647,2025-08-25,80,2,2,1,Cliente 80,Rio Grande,18,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,Ana,200,96,104,8,August
+648,2025-06-30,38,9,1,4,Cliente 38,Porto Alegre,18,O Senhor dos Anéis,Fantasia,J.R.R. Tolkien,81,42,Marina,81,42,39,6,June
+649,2025-11-07,77,14,4,1,Cliente 77,Rio Grande,54,Clean Code,Tecnologia,Robert C. Martin,88,59,Ana,352,236,116,11,November
+650,2025-02-06,87,4,4,1,Cliente 87,Pelotas,49,1984,Ficção,George Orwell,97,62,Ana,388,248,140,2,February
+651,2025-02-25,54,9,3,1,Cliente 54,Pelotas,41,O Senhor dos Anéis,Fantasia,J.R.R. Tolkien,81,42,Ana,243,126,117,2,February
+652,2025-08-25,22,13,4,1,Cliente 22,Porto Alegre,45,Sapiens,História,Yuval Noah Harari,85,55,Ana,340,220,120,8,August
+653,2025-12-24,16,18,3,2,Cliente 16,Porto Alegre,53,Coraline,Fantasia,Neil Gaiman,42,21,Carlos,126,63,63,12,December
+654,2025-12-15,28,15,2,1,Cliente 28,Porto Alegre,45,Python para Dados,Tecnologia,Autor Diversos,101,43,Ana,202,86,116,12,December
+655,2025-07-16,35,10,4,1,Cliente 35,Porto Alegre,42,Verity,Romance,Colleen Hoover,71,30,Ana,284,120,164,7,July
+656,2025-03-14,60,16,2,2,Cliente 60,Rio Grande,69,O Poder do Hábito,Desenvolvimento Pessoal,Charles Duhigg,39,22,Carlos,78,44,34,3,March
+657,2025-02-28,45,12,1,2,Cliente 45,Pelotas,23,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,Carlos,85,43,42,2,February
+658,2025-08-28,46,20,2,4,Cliente 46,Pelotas,25,O Alquimista,Ficção,Paulo Coelho,86,63,Marina,172,126,46,8,August
+659,2025-01-02,72,5,1,3,Cliente 72,Pelotas,66,O Pequeno Príncipe,Infantil,Antoine de Saint-Exupéry,74,27,João,74,27,47,1,January
+660,2025-12-26,55,2,2,1,Cliente 55,Pelotas,32,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,Ana,200,96,104,12,December
+661,2025-07-07,86,10,2,1,Cliente 86,Rio Grande,23,Verity,Romance,Colleen Hoover,71,30,Ana,142,60,82,7,July
+662,2025-11-03,85,1,4,1,Cliente 85,Porto Alegre,49,Dom Casmurro,Clássico,Machado de Assis,102,58,Ana,408,232,176,11,November
+663,2025-01-30,26,7,2,4,Cliente 26,Rio Grande,23,It: A Coisa,Terror,Stephen King,94,58,Marina,188,116,72,1,January
+664,2025-09-24,85,17,4,1,Cliente 85,Porto Alegre,49,Extraordinário,Infantil,R.J. Palacio,92,41,Ana,368,164,204,9,September
+665,2025-04-18,25,16,4,3,Cliente 25,Pelotas,62,O Poder do Hábito,Desenvolvimento Pessoal,Charles Duhigg,39,22,João,156,88,68,4,April
+666,2025-11-28,65,3,3,2,Cliente 65,Porto Alegre,56,O Hobbit,Fantasia,J.R.R. Tolkien,50,34,Carlos,150,102,48,11,November
+667,2025-03-31,6,14,3,4,Cliente 6,Porto Alegre,49,Clean Code,Tecnologia,Robert C. Martin,88,59,Marina,264,177,87,3,March
+668,2025-07-24,23,10,1,2,Cliente 23,Porto Alegre,19,Verity,Romance,Colleen Hoover,71,30,Carlos,71,30,41,7,July
+669,2025-08-08,64,7,2,1,Cliente 64,Pelotas,29,It: A Coisa,Terror,Stephen King,94,58,Ana,188,116,72,8,August
+670,2025-04-04,87,17,1,1,Cliente 87,Pelotas,49,Extraordinário,Infantil,R.J. Palacio,92,41,Ana,92,41,51,4,April
+671,2025-04-13,43,6,2,1,Cliente 43,Pelotas,20,A Revolução dos Bichos,Ficção,George Orwell,66,40,Ana,132,80,52,4,April
+672,2025-08-11,23,4,3,3,Cliente 23,Porto Alegre,19,1984,Ficção,George Orwell,97,62,João,291,186,105,8,August
+673,2025-07-05,96,17,3,3,Cliente 96,Rio Grande,23,Extraordinário,Infantil,R.J. Palacio,92,41,João,276,123,153,7,July
+674,2025-07-03,30,9,2,4,Cliente 30,Porto Alegre,61,O Senhor dos Anéis,Fantasia,J.R.R. Tolkien,81,42,Marina,162,84,78,7,July
+675,2025-06-11,77,4,2,2,Cliente 77,Rio Grande,54,1984,Ficção,George Orwell,97,62,Carlos,194,124,70,6,June
+676,2025-09-04,18,7,3,1,Cliente 18,Porto Alegre,49,It: A Coisa,Terror,Stephen King,94,58,Ana,282,174,108,9,September
+677,2025-01-31,87,2,3,1,Cliente 87,Pelotas,49,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,Ana,300,144,156,1,January
+678,2025-02-21,79,17,1,1,Cliente 79,Rio Grande,50,Extraordinário,Infantil,R.J. Palacio,92,41,Ana,92,41,51,2,February
+679,2025-12-11,97,8,3,1,Cliente 97,Rio Grande,39,Orgulho e Preconceito,Romance,Jane Austen,96,38,Ana,288,114,174,12,December
+680,2025-03-17,21,15,2,3,Cliente 21,Porto Alegre,39,Python para Dados,Tecnologia,Autor Diversos,101,43,João,202,86,116,3,March
+681,2025-10-05,57,15,1,2,Cliente 57,Rio Grande,49,Python para Dados,Tecnologia,Autor Diversos,101,43,Carlos,101,43,58,10,October
+682,2025-02-09,23,8,2,2,Cliente 23,Porto Alegre,19,Orgulho e Preconceito,Romance,Jane Austen,96,38,Carlos,192,76,116,2,February
+683,2025-04-11,91,16,4,4,Cliente 91,Rio Grande,55,O Poder do Hábito,Desenvolvimento Pessoal,Charles Duhigg,39,22,Marina,156,88,68,4,April
+684,2025-04-21,45,19,1,3,Cliente 45,Pelotas,23,A Menina que Roubava Livros,Romance,Markus Zusak,78,43,João,78,43,35,4,April
+685,2025-11-17,44,11,2,1,Cliente 44,Porto Alegre,56,Pai Rico Pai Pobre,Negócios,Robert Kiyosaki,86,30,Ana,172,60,112,11,November
+686,2025-09-06,82,2,3,2,Cliente 82,Rio Grande,19,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,Carlos,300,144,156,9,September
+687,2025-07-10,88,17,4,2,Cliente 88,Pelotas,21,Extraordinário,Infantil,R.J. Palacio,92,41,Carlos,368,164,204,7,July
+688,2025-07-01,47,16,2,3,Cliente 47,Pelotas,44,O Poder do Hábito,Desenvolvimento Pessoal,Charles Duhigg,39,22,João,78,44,34,7,July
+689,2025-12-01,40,15,1,4,Cliente 40,Pelotas,69,Python para Dados,Tecnologia,Autor Diversos,101,43,Marina,101,43,58,12,December
+690,2025-07-28,51,13,2,4,Cliente 51,Pelotas,68,Sapiens,História,Yuval Noah Harari,85,55,Marina,170,110,60,7,July
+691,2025-01-22,42,15,4,1,Cliente 42,Rio Grande,58,Python para Dados,Tecnologia,Autor Diversos,101,43,Ana,404,172,232,1,January
+692,2025-06-15,7,4,1,4,Cliente 7,Pelotas,21,1984,Ficção,George Orwell,97,62,Marina,97,62,35,6,June
+693,2025-04-09,50,16,4,2,Cliente 50,Pelotas,50,O Poder do Hábito,Desenvolvimento Pessoal,Charles Duhigg,39,22,Carlos,156,88,68,4,April
+694,2025-07-27,48,12,2,4,Cliente 48,Pelotas,26,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,Marina,170,86,84,7,July
+695,2025-01-08,84,4,3,1,Cliente 84,Rio Grande,43,1984,Ficção,George Orwell,97,62,Ana,291,186,105,1,January
+696,2025-07-09,91,3,3,2,Cliente 91,Rio Grande,55,O Hobbit,Fantasia,J.R.R. Tolkien,50,34,Carlos,150,102,48,7,July
+697,2025-06-24,6,17,2,4,Cliente 6,Porto Alegre,49,Extraordinário,Infantil,R.J. Palacio,92,41,Marina,184,82,102,6,June
+698,2025-09-30,91,18,2,4,Cliente 91,Rio Grande,55,Coraline,Fantasia,Neil Gaiman,42,21,Marina,84,42,42,9,September
+699,2025-01-17,9,18,2,3,Cliente 9,Pelotas,54,Coraline,Fantasia,Neil Gaiman,42,21,João,84,42,42,1,January
+700,2025-03-31,57,17,1,1,Cliente 57,Rio Grande,49,Extraordinário,Infantil,R.J. Palacio,92,41,Ana,92,41,51,3,March
+701,2025-05-21,31,12,4,4,Cliente 31,Porto Alegre,37,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,Marina,340,172,168,5,May
+702,2025-05-25,21,4,4,3,Cliente 21,Porto Alegre,39,1984,Ficção,George Orwell,97,62,João,388,248,140,5,May
+703,2025-06-15,90,12,4,2,Cliente 90,Rio Grande,34,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,Carlos,340,172,168,6,June
+704,2025-12-03,40,20,2,3,Cliente 40,Pelotas,69,O Alquimista,Ficção,Paulo Coelho,86,63,João,172,126,46,12,December
+705,2025-03-19,45,15,4,3,Cliente 45,Pelotas,23,Python para Dados,Tecnologia,Autor Diversos,101,43,João,404,172,232,3,March
+706,2025-09-19,77,16,2,4,Cliente 77,Rio Grande,54,O Poder do Hábito,Desenvolvimento Pessoal,Charles Duhigg,39,22,Marina,78,44,34,9,September
+707,2025-06-12,49,5,1,4,Cliente 49,Rio Grande,54,O Pequeno Príncipe,Infantil,Antoine de Saint-Exupéry,74,27,Marina,74,27,47,6,June
+708,2025-01-14,87,15,3,4,Cliente 87,Pelotas,49,Python para Dados,Tecnologia,Autor Diversos,101,43,Marina,303,129,174,1,January
+709,2025-08-27,20,17,2,3,Cliente 20,Porto Alegre,68,Extraordinário,Infantil,R.J. Palacio,92,41,João,184,82,102,8,August
+710,2025-03-13,92,18,2,2,Cliente 92,Porto Alegre,41,Coraline,Fantasia,Neil Gaiman,42,21,Carlos,84,42,42,3,March
+711,2025-05-23,17,5,3,1,Cliente 17,Pelotas,30,O Pequeno Príncipe,Infantil,Antoine de Saint-Exupéry,74,27,Ana,222,81,141,5,May
+712,2025-11-06,28,13,3,3,Cliente 28,Porto Alegre,45,Sapiens,História,Yuval Noah Harari,85,55,João,255,165,90,11,November
+713,2025-10-10,41,19,1,4,Cliente 41,Porto Alegre,30,A Menina que Roubava Livros,Romance,Markus Zusak,78,43,Marina,78,43,35,10,October
+714,2025-09-26,66,13,4,1,Cliente 66,Rio Grande,19,Sapiens,História,Yuval Noah Harari,85,55,Ana,340,220,120,9,September
+715,2025-08-29,25,18,2,2,Cliente 25,Pelotas,62,Coraline,Fantasia,Neil Gaiman,42,21,Carlos,84,42,42,8,August
+716,2025-09-02,58,14,4,1,Cliente 58,Rio Grande,41,Clean Code,Tecnologia,Robert C. Martin,88,59,Ana,352,236,116,9,September
+717,2025-06-12,41,4,2,4,Cliente 41,Porto Alegre,30,1984,Ficção,George Orwell,97,62,Marina,194,124,70,6,June
+718,2025-03-01,6,4,1,3,Cliente 6,Porto Alegre,49,1984,Ficção,George Orwell,97,62,João,97,62,35,3,March
+719,2025-01-06,75,20,3,3,Cliente 75,Porto Alegre,45,O Alquimista,Ficção,Paulo Coelho,86,63,João,258,189,69,1,January
+720,2025-07-16,38,20,1,4,Cliente 38,Porto Alegre,18,O Alquimista,Ficção,Paulo Coelho,86,63,Marina,86,63,23,7,July
+721,2025-02-27,6,19,3,3,Cliente 6,Porto Alegre,49,A Menina que Roubava Livros,Romance,Markus Zusak,78,43,João,234,129,105,2,February
+722,2025-11-01,45,13,4,4,Cliente 45,Pelotas,23,Sapiens,História,Yuval Noah Harari,85,55,Marina,340,220,120,11,November
+723,2025-08-05,75,12,4,3,Cliente 75,Porto Alegre,45,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,João,340,172,168,8,August
+724,2025-01-26,14,7,1,3,Cliente 14,Rio Grande,60,It: A Coisa,Terror,Stephen King,94,58,João,94,58,36,1,January
+725,2025-10-30,66,12,3,3,Cliente 66,Rio Grande,19,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,João,255,129,126,10,October
+726,2025-01-05,40,4,1,2,Cliente 40,Pelotas,69,1984,Ficção,George Orwell,97,62,Carlos,97,62,35,1,January
+727,2025-01-20,3,2,3,2,Cliente 3,Pelotas,56,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,Carlos,300,144,156,1,January
+728,2025-07-17,99,2,3,4,Cliente 99,Porto Alegre,65,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,Marina,300,144,156,7,July
+729,2025-02-28,97,5,4,2,Cliente 97,Rio Grande,39,O Pequeno Príncipe,Infantil,Antoine de Saint-Exupéry,74,27,Carlos,296,108,188,2,February
+730,2025-08-30,24,10,4,4,Cliente 24,Porto Alegre,59,Verity,Romance,Colleen Hoover,71,30,Marina,284,120,164,8,August
+731,2025-05-26,19,10,3,1,Cliente 19,Porto Alegre,24,Verity,Romance,Colleen Hoover,71,30,Ana,213,90,123,5,May
+732,2025-09-30,18,9,3,1,Cliente 18,Porto Alegre,49,O Senhor dos Anéis,Fantasia,J.R.R. Tolkien,81,42,Ana,243,126,117,9,September
+733,2025-09-06,64,13,3,2,Cliente 64,Pelotas,29,Sapiens,História,Yuval Noah Harari,85,55,Carlos,255,165,90,9,September
+734,2025-01-14,88,7,4,1,Cliente 88,Pelotas,21,It: A Coisa,Terror,Stephen King,94,58,Ana,376,232,144,1,January
+735,2025-01-13,35,5,4,1,Cliente 35,Porto Alegre,42,O Pequeno Príncipe,Infantil,Antoine de Saint-Exupéry,74,27,Ana,296,108,188,1,January
+736,2025-02-13,62,10,2,3,Cliente 62,Pelotas,66,Verity,Romance,Colleen Hoover,71,30,João,142,60,82,2,February
+737,2025-01-19,1,10,3,3,Cliente 1,Rio Grande,68,Verity,Romance,Colleen Hoover,71,30,João,213,90,123,1,January
+738,2025-03-04,100,6,2,4,Cliente 100,Pelotas,33,A Revolução dos Bichos,Ficção,George Orwell,66,40,Marina,132,80,52,3,March
+739,2025-08-27,25,19,3,1,Cliente 25,Pelotas,62,A Menina que Roubava Livros,Romance,Markus Zusak,78,43,Ana,234,129,105,8,August
+740,2025-12-03,45,8,4,4,Cliente 45,Pelotas,23,Orgulho e Preconceito,Romance,Jane Austen,96,38,Marina,384,152,232,12,December
+741,2025-04-10,49,1,2,4,Cliente 49,Rio Grande,54,Dom Casmurro,Clássico,Machado de Assis,102,58,Marina,204,116,88,4,April
+742,2025-06-12,98,17,2,1,Cliente 98,Porto Alegre,28,Extraordinário,Infantil,R.J. Palacio,92,41,Ana,184,82,102,6,June
+743,2025-05-02,89,7,1,2,Cliente 89,Porto Alegre,28,It: A Coisa,Terror,Stephen King,94,58,Carlos,94,58,36,5,May
+744,2025-02-13,16,14,3,1,Cliente 16,Porto Alegre,53,Clean Code,Tecnologia,Robert C. Martin,88,59,Ana,264,177,87,2,February
+745,2025-12-26,98,17,4,3,Cliente 98,Porto Alegre,28,Extraordinário,Infantil,R.J. Palacio,92,41,João,368,164,204,12,December
+746,2025-11-13,93,9,1,1,Cliente 93,Rio Grande,22,O Senhor dos Anéis,Fantasia,J.R.R. Tolkien,81,42,Ana,81,42,39,11,November
+747,2025-05-25,19,17,1,2,Cliente 19,Porto Alegre,24,Extraordinário,Infantil,R.J. Palacio,92,41,Carlos,92,41,51,5,May
+748,2025-11-23,23,5,3,4,Cliente 23,Porto Alegre,19,O Pequeno Príncipe,Infantil,Antoine de Saint-Exupéry,74,27,Marina,222,81,141,11,November
+749,2025-12-29,83,20,1,4,Cliente 83,Pelotas,61,O Alquimista,Ficção,Paulo Coelho,86,63,Marina,86,63,23,12,December
+750,2025-02-19,25,8,3,3,Cliente 25,Pelotas,62,Orgulho e Preconceito,Romance,Jane Austen,96,38,João,288,114,174,2,February
+751,2025-03-06,16,6,1,3,Cliente 16,Porto Alegre,53,A Revolução dos Bichos,Ficção,George Orwell,66,40,João,66,40,26,3,March
+752,2025-12-21,54,11,3,3,Cliente 54,Pelotas,41,Pai Rico Pai Pobre,Negócios,Robert Kiyosaki,86,30,João,258,90,168,12,December
+753,2025-10-15,73,19,4,4,Cliente 73,Rio Grande,19,A Menina que Roubava Livros,Romance,Markus Zusak,78,43,Marina,312,172,140,10,October
+754,2025-06-13,1,4,3,3,Cliente 1,Rio Grande,68,1984,Ficção,George Orwell,97,62,João,291,186,105,6,June
+755,2025-05-21,42,18,3,1,Cliente 42,Rio Grande,58,Coraline,Fantasia,Neil Gaiman,42,21,Ana,126,63,63,5,May
+756,2025-11-10,19,1,2,4,Cliente 19,Porto Alegre,24,Dom Casmurro,Clássico,Machado de Assis,102,58,Marina,204,116,88,11,November
+757,2025-05-08,97,13,4,2,Cliente 97,Rio Grande,39,Sapiens,História,Yuval Noah Harari,85,55,Carlos,340,220,120,5,May
+758,2025-08-27,34,14,4,4,Cliente 34,Rio Grande,45,Clean Code,Tecnologia,Robert C. Martin,88,59,Marina,352,236,116,8,August
+759,2025-11-20,80,1,4,1,Cliente 80,Rio Grande,18,Dom Casmurro,Clássico,Machado de Assis,102,58,Ana,408,232,176,11,November
+760,2025-10-23,55,11,1,1,Cliente 55,Pelotas,32,Pai Rico Pai Pobre,Negócios,Robert Kiyosaki,86,30,Ana,86,30,56,10,October
+761,2025-07-06,18,17,2,3,Cliente 18,Porto Alegre,49,Extraordinário,Infantil,R.J. Palacio,92,41,João,184,82,102,7,July
+762,2025-07-27,34,4,4,4,Cliente 34,Rio Grande,45,1984,Ficção,George Orwell,97,62,Marina,388,248,140,7,July
+763,2025-08-08,89,12,1,4,Cliente 89,Porto Alegre,28,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,Marina,85,43,42,8,August
+764,2025-07-09,45,10,1,4,Cliente 45,Pelotas,23,Verity,Romance,Colleen Hoover,71,30,Marina,71,30,41,7,July
+765,2025-12-12,6,6,1,2,Cliente 6,Porto Alegre,49,A Revolução dos Bichos,Ficção,George Orwell,66,40,Carlos,66,40,26,12,December
+766,2025-10-11,21,1,2,3,Cliente 21,Porto Alegre,39,Dom Casmurro,Clássico,Machado de Assis,102,58,João,204,116,88,10,October
+767,2025-12-18,70,7,1,1,Cliente 70,Pelotas,66,It: A Coisa,Terror,Stephen King,94,58,Ana,94,58,36,12,December
+768,2025-08-25,96,16,2,1,Cliente 96,Rio Grande,23,O Poder do Hábito,Desenvolvimento Pessoal,Charles Duhigg,39,22,Ana,78,44,34,8,August
+769,2025-07-13,48,14,3,3,Cliente 48,Pelotas,26,Clean Code,Tecnologia,Robert C. Martin,88,59,João,264,177,87,7,July
+770,2025-10-14,39,20,1,1,Cliente 39,Pelotas,44,O Alquimista,Ficção,Paulo Coelho,86,63,Ana,86,63,23,10,October
+771,2025-09-16,31,20,4,1,Cliente 31,Porto Alegre,37,O Alquimista,Ficção,Paulo Coelho,86,63,Ana,344,252,92,9,September
+772,2025-09-03,10,6,1,3,Cliente 10,Porto Alegre,40,A Revolução dos Bichos,Ficção,George Orwell,66,40,João,66,40,26,9,September
+773,2025-05-16,30,5,3,1,Cliente 30,Porto Alegre,61,O Pequeno Príncipe,Infantil,Antoine de Saint-Exupéry,74,27,Ana,222,81,141,5,May
+774,2025-10-07,18,18,3,4,Cliente 18,Porto Alegre,49,Coraline,Fantasia,Neil Gaiman,42,21,Marina,126,63,63,10,October
+775,2025-09-28,60,15,1,2,Cliente 60,Rio Grande,69,Python para Dados,Tecnologia,Autor Diversos,101,43,Carlos,101,43,58,9,September
+776,2025-06-20,88,6,3,3,Cliente 88,Pelotas,21,A Revolução dos Bichos,Ficção,George Orwell,66,40,João,198,120,78,6,June
+777,2025-06-08,73,19,2,2,Cliente 73,Rio Grande,19,A Menina que Roubava Livros,Romance,Markus Zusak,78,43,Carlos,156,86,70,6,June
+778,2025-07-20,95,1,2,1,Cliente 95,Pelotas,51,Dom Casmurro,Clássico,Machado de Assis,102,58,Ana,204,116,88,7,July
+779,2025-02-14,15,1,1,1,Cliente 15,Rio Grande,46,Dom Casmurro,Clássico,Machado de Assis,102,58,Ana,102,58,44,2,February
+780,2025-09-21,4,13,2,4,Cliente 4,Porto Alegre,66,Sapiens,História,Yuval Noah Harari,85,55,Marina,170,110,60,9,September
+781,2025-03-12,63,3,2,3,Cliente 63,Rio Grande,69,O Hobbit,Fantasia,J.R.R. Tolkien,50,34,João,100,68,32,3,March
+782,2025-12-30,40,10,4,1,Cliente 40,Pelotas,69,Verity,Romance,Colleen Hoover,71,30,Ana,284,120,164,12,December
+783,2025-04-13,9,3,1,3,Cliente 9,Pelotas,54,O Hobbit,Fantasia,J.R.R. Tolkien,50,34,João,50,34,16,4,April
+784,2025-05-05,9,9,3,3,Cliente 9,Pelotas,54,O Senhor dos Anéis,Fantasia,J.R.R. Tolkien,81,42,João,243,126,117,5,May
+785,2025-11-09,26,8,1,3,Cliente 26,Rio Grande,23,Orgulho e Preconceito,Romance,Jane Austen,96,38,João,96,38,58,11,November
+786,2025-10-13,4,3,2,3,Cliente 4,Porto Alegre,66,O Hobbit,Fantasia,J.R.R. Tolkien,50,34,João,100,68,32,10,October
+787,2025-08-18,81,13,4,3,Cliente 81,Pelotas,36,Sapiens,História,Yuval Noah Harari,85,55,João,340,220,120,8,August
+788,2025-05-26,16,6,1,2,Cliente 16,Porto Alegre,53,A Revolução dos Bichos,Ficção,George Orwell,66,40,Carlos,66,40,26,5,May
+789,2025-07-16,15,13,1,4,Cliente 15,Rio Grande,46,Sapiens,História,Yuval Noah Harari,85,55,Marina,85,55,30,7,July
+790,2025-08-09,99,20,2,3,Cliente 99,Porto Alegre,65,O Alquimista,Ficção,Paulo Coelho,86,63,João,172,126,46,8,August
+791,2025-03-01,52,20,2,2,Cliente 52,Pelotas,59,O Alquimista,Ficção,Paulo Coelho,86,63,Carlos,172,126,46,3,March
+792,2025-04-08,69,12,1,1,Cliente 69,Rio Grande,54,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,Ana,85,43,42,4,April
+793,2025-06-20,5,13,2,3,Cliente 5,Porto Alegre,69,Sapiens,História,Yuval Noah Harari,85,55,João,170,110,60,6,June
+794,2025-06-22,20,2,2,1,Cliente 20,Porto Alegre,68,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,Ana,200,96,104,6,June
+795,2025-05-31,79,16,2,3,Cliente 79,Rio Grande,50,O Poder do Hábito,Desenvolvimento Pessoal,Charles Duhigg,39,22,João,78,44,34,5,May
+796,2025-12-16,18,6,2,2,Cliente 18,Porto Alegre,49,A Revolução dos Bichos,Ficção,George Orwell,66,40,Carlos,132,80,52,12,December
+797,2025-05-02,2,19,2,2,Cliente 2,Porto Alegre,49,A Menina que Roubava Livros,Romance,Markus Zusak,78,43,Carlos,156,86,70,5,May
+798,2025-04-18,93,13,4,2,Cliente 93,Rio Grande,22,Sapiens,História,Yuval Noah Harari,85,55,Carlos,340,220,120,4,April
+799,2025-01-04,13,17,2,4,Cliente 13,Pelotas,32,Extraordinário,Infantil,R.J. Palacio,92,41,Marina,184,82,102,1,January
+800,2025-04-03,4,9,3,1,Cliente 4,Porto Alegre,66,O Senhor dos Anéis,Fantasia,J.R.R. Tolkien,81,42,Ana,243,126,117,4,April
+801,2025-01-06,42,17,1,4,Cliente 42,Rio Grande,58,Extraordinário,Infantil,R.J. Palacio,92,41,Marina,92,41,51,1,January
+802,2025-10-15,74,2,4,3,Cliente 74,Rio Grande,19,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,João,400,192,208,10,October
+803,2025-04-16,61,19,4,1,Cliente 61,Rio Grande,66,A Menina que Roubava Livros,Romance,Markus Zusak,78,43,Ana,312,172,140,4,April
+804,2025-05-26,95,19,2,2,Cliente 95,Pelotas,51,A Menina que Roubava Livros,Romance,Markus Zusak,78,43,Carlos,156,86,70,5,May
+805,2025-09-28,8,7,1,1,Cliente 8,Porto Alegre,47,It: A Coisa,Terror,Stephen King,94,58,Ana,94,58,36,9,September
+806,2025-04-06,67,10,3,2,Cliente 67,Porto Alegre,20,Verity,Romance,Colleen Hoover,71,30,Carlos,213,90,123,4,April
+807,2025-08-17,63,10,2,4,Cliente 63,Rio Grande,69,Verity,Romance,Colleen Hoover,71,30,Marina,142,60,82,8,August
+808,2025-07-21,9,20,1,4,Cliente 9,Pelotas,54,O Alquimista,Ficção,Paulo Coelho,86,63,Marina,86,63,23,7,July
+809,2025-07-31,94,9,2,2,Cliente 94,Rio Grande,69,O Senhor dos Anéis,Fantasia,J.R.R. Tolkien,81,42,Carlos,162,84,78,7,July
+810,2025-01-06,11,17,2,2,Cliente 11,Rio Grande,56,Extraordinário,Infantil,R.J. Palacio,92,41,Carlos,184,82,102,1,January
+811,2025-04-22,99,15,2,3,Cliente 99,Porto Alegre,65,Python para Dados,Tecnologia,Autor Diversos,101,43,João,202,86,116,4,April
+812,2025-11-19,42,2,2,4,Cliente 42,Rio Grande,58,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,Marina,200,96,104,11,November
+813,2025-04-16,13,4,2,4,Cliente 13,Pelotas,32,1984,Ficção,George Orwell,97,62,Marina,194,124,70,4,April
+814,2025-05-19,36,19,2,3,Cliente 36,Rio Grande,56,A Menina que Roubava Livros,Romance,Markus Zusak,78,43,João,156,86,70,5,May
+815,2025-10-26,13,17,2,4,Cliente 13,Pelotas,32,Extraordinário,Infantil,R.J. Palacio,92,41,Marina,184,82,102,10,October
+816,2025-04-06,12,5,3,2,Cliente 12,Rio Grande,62,O Pequeno Príncipe,Infantil,Antoine de Saint-Exupéry,74,27,Carlos,222,81,141,4,April
+817,2025-12-03,37,7,4,1,Cliente 37,Pelotas,50,It: A Coisa,Terror,Stephen King,94,58,Ana,376,232,144,12,December
+818,2025-10-24,74,18,3,1,Cliente 74,Rio Grande,19,Coraline,Fantasia,Neil Gaiman,42,21,Ana,126,63,63,10,October
+819,2025-08-02,73,7,2,4,Cliente 73,Rio Grande,19,It: A Coisa,Terror,Stephen King,94,58,Marina,188,116,72,8,August
+820,2025-10-18,52,17,2,3,Cliente 52,Pelotas,59,Extraordinário,Infantil,R.J. Palacio,92,41,João,184,82,102,10,October
+821,2025-01-22,71,7,3,2,Cliente 71,Porto Alegre,34,It: A Coisa,Terror,Stephen King,94,58,Carlos,282,174,108,1,January
+822,2025-07-12,2,4,3,1,Cliente 2,Porto Alegre,49,1984,Ficção,George Orwell,97,62,Ana,291,186,105,7,July
+823,2025-05-30,56,8,4,2,Cliente 56,Rio Grande,49,Orgulho e Preconceito,Romance,Jane Austen,96,38,Carlos,384,152,232,5,May
+824,2025-09-04,60,13,3,4,Cliente 60,Rio Grande,69,Sapiens,História,Yuval Noah Harari,85,55,Marina,255,165,90,9,September
+825,2025-09-24,23,4,4,4,Cliente 23,Porto Alegre,19,1984,Ficção,George Orwell,97,62,Marina,388,248,140,9,September
+826,2025-09-08,40,6,2,1,Cliente 40,Pelotas,69,A Revolução dos Bichos,Ficção,George Orwell,66,40,Ana,132,80,52,9,September
+827,2025-01-03,64,5,1,4,Cliente 64,Pelotas,29,O Pequeno Príncipe,Infantil,Antoine de Saint-Exupéry,74,27,Marina,74,27,47,1,January
+828,2025-11-12,85,12,1,3,Cliente 85,Porto Alegre,49,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,João,85,43,42,11,November
+829,2025-03-17,23,4,1,4,Cliente 23,Porto Alegre,19,1984,Ficção,George Orwell,97,62,Marina,97,62,35,3,March
+830,2025-03-28,29,9,1,4,Cliente 29,Porto Alegre,61,O Senhor dos Anéis,Fantasia,J.R.R. Tolkien,81,42,Marina,81,42,39,3,March
+831,2025-09-27,78,4,2,4,Cliente 78,Porto Alegre,49,1984,Ficção,George Orwell,97,62,Marina,194,124,70,9,September
+832,2025-08-13,90,19,1,2,Cliente 90,Rio Grande,34,A Menina que Roubava Livros,Romance,Markus Zusak,78,43,Carlos,78,43,35,8,August
+833,2025-01-18,51,14,3,2,Cliente 51,Pelotas,68,Clean Code,Tecnologia,Robert C. Martin,88,59,Carlos,264,177,87,1,January
+834,2025-04-23,69,5,3,1,Cliente 69,Rio Grande,54,O Pequeno Príncipe,Infantil,Antoine de Saint-Exupéry,74,27,Ana,222,81,141,4,April
+835,2025-09-08,95,18,1,1,Cliente 95,Pelotas,51,Coraline,Fantasia,Neil Gaiman,42,21,Ana,42,21,21,9,September
+836,2025-08-21,89,10,3,1,Cliente 89,Porto Alegre,28,Verity,Romance,Colleen Hoover,71,30,Ana,213,90,123,8,August
+837,2025-11-25,31,19,4,4,Cliente 31,Porto Alegre,37,A Menina que Roubava Livros,Romance,Markus Zusak,78,43,Marina,312,172,140,11,November
+838,2025-10-06,50,12,2,2,Cliente 50,Pelotas,50,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,Carlos,170,86,84,10,October
+839,2025-07-21,20,18,1,3,Cliente 20,Porto Alegre,68,Coraline,Fantasia,Neil Gaiman,42,21,João,42,21,21,7,July
+840,2025-03-24,55,17,1,4,Cliente 55,Pelotas,32,Extraordinário,Infantil,R.J. Palacio,92,41,Marina,92,41,51,3,March
+841,2025-05-05,81,11,2,4,Cliente 81,Pelotas,36,Pai Rico Pai Pobre,Negócios,Robert Kiyosaki,86,30,Marina,172,60,112,5,May
+842,2025-06-24,2,3,3,4,Cliente 2,Porto Alegre,49,O Hobbit,Fantasia,J.R.R. Tolkien,50,34,Marina,150,102,48,6,June
+843,2025-03-10,25,17,2,3,Cliente 25,Pelotas,62,Extraordinário,Infantil,R.J. Palacio,92,41,João,184,82,102,3,March
+844,2025-02-16,13,1,2,1,Cliente 13,Pelotas,32,Dom Casmurro,Clássico,Machado de Assis,102,58,Ana,204,116,88,2,February
+845,2025-09-13,92,15,3,3,Cliente 92,Porto Alegre,41,Python para Dados,Tecnologia,Autor Diversos,101,43,João,303,129,174,9,September
+846,2025-08-03,70,9,2,1,Cliente 70,Pelotas,66,O Senhor dos Anéis,Fantasia,J.R.R. Tolkien,81,42,Ana,162,84,78,8,August
+847,2025-01-30,67,15,3,3,Cliente 67,Porto Alegre,20,Python para Dados,Tecnologia,Autor Diversos,101,43,João,303,129,174,1,January
+848,2025-10-08,58,3,3,2,Cliente 58,Rio Grande,41,O Hobbit,Fantasia,J.R.R. Tolkien,50,34,Carlos,150,102,48,10,October
+849,2025-08-25,99,19,2,4,Cliente 99,Porto Alegre,65,A Menina que Roubava Livros,Romance,Markus Zusak,78,43,Marina,156,86,70,8,August
+850,2025-09-05,82,13,4,4,Cliente 82,Rio Grande,19,Sapiens,História,Yuval Noah Harari,85,55,Marina,340,220,120,9,September
+851,2025-01-25,75,12,3,4,Cliente 75,Porto Alegre,45,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,Marina,255,129,126,1,January
+852,2025-03-15,84,20,2,1,Cliente 84,Rio Grande,43,O Alquimista,Ficção,Paulo Coelho,86,63,Ana,172,126,46,3,March
+853,2025-07-25,64,1,3,3,Cliente 64,Pelotas,29,Dom Casmurro,Clássico,Machado de Assis,102,58,João,306,174,132,7,July
+854,2025-11-10,69,17,4,2,Cliente 69,Rio Grande,54,Extraordinário,Infantil,R.J. Palacio,92,41,Carlos,368,164,204,11,November
+855,2025-04-04,83,13,4,3,Cliente 83,Pelotas,61,Sapiens,História,Yuval Noah Harari,85,55,João,340,220,120,4,April
+856,2025-05-07,86,1,1,4,Cliente 86,Rio Grande,23,Dom Casmurro,Clássico,Machado de Assis,102,58,Marina,102,58,44,5,May
+857,2025-01-25,59,10,3,2,Cliente 59,Pelotas,58,Verity,Romance,Colleen Hoover,71,30,Carlos,213,90,123,1,January
+858,2025-11-30,60,15,3,2,Cliente 60,Rio Grande,69,Python para Dados,Tecnologia,Autor Diversos,101,43,Carlos,303,129,174,11,November
+859,2025-12-21,83,7,2,4,Cliente 83,Pelotas,61,It: A Coisa,Terror,Stephen King,94,58,Marina,188,116,72,12,December
+860,2025-04-26,62,18,3,3,Cliente 62,Pelotas,66,Coraline,Fantasia,Neil Gaiman,42,21,João,126,63,63,4,April
+861,2025-02-17,16,16,1,4,Cliente 16,Porto Alegre,53,O Poder do Hábito,Desenvolvimento Pessoal,Charles Duhigg,39,22,Marina,39,22,17,2,February
+862,2025-08-14,88,14,4,3,Cliente 88,Pelotas,21,Clean Code,Tecnologia,Robert C. Martin,88,59,João,352,236,116,8,August
+863,2025-09-23,68,18,4,2,Cliente 68,Pelotas,66,Coraline,Fantasia,Neil Gaiman,42,21,Carlos,168,84,84,9,September
+864,2025-04-09,15,7,1,2,Cliente 15,Rio Grande,46,It: A Coisa,Terror,Stephen King,94,58,Carlos,94,58,36,4,April
+865,2025-01-11,89,17,3,4,Cliente 89,Porto Alegre,28,Extraordinário,Infantil,R.J. Palacio,92,41,Marina,276,123,153,1,January
+866,2025-03-26,55,18,3,2,Cliente 55,Pelotas,32,Coraline,Fantasia,Neil Gaiman,42,21,Carlos,126,63,63,3,March
+867,2025-08-02,35,12,1,1,Cliente 35,Porto Alegre,42,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,Ana,85,43,42,8,August
+868,2025-06-22,55,8,2,2,Cliente 55,Pelotas,32,Orgulho e Preconceito,Romance,Jane Austen,96,38,Carlos,192,76,116,6,June
+869,2025-07-28,14,2,4,1,Cliente 14,Rio Grande,60,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,Ana,400,192,208,7,July
+870,2025-03-05,49,7,1,2,Cliente 49,Rio Grande,54,It: A Coisa,Terror,Stephen King,94,58,Carlos,94,58,36,3,March
+871,2025-09-15,83,4,1,4,Cliente 83,Pelotas,61,1984,Ficção,George Orwell,97,62,Marina,97,62,35,9,September
+872,2025-11-28,100,18,3,4,Cliente 100,Pelotas,33,Coraline,Fantasia,Neil Gaiman,42,21,Marina,126,63,63,11,November
+873,2025-05-01,7,6,4,1,Cliente 7,Pelotas,21,A Revolução dos Bichos,Ficção,George Orwell,66,40,Ana,264,160,104,5,May
+874,2025-10-25,30,9,3,4,Cliente 30,Porto Alegre,61,O Senhor dos Anéis,Fantasia,J.R.R. Tolkien,81,42,Marina,243,126,117,10,October
+875,2025-02-23,83,9,1,2,Cliente 83,Pelotas,61,O Senhor dos Anéis,Fantasia,J.R.R. Tolkien,81,42,Carlos,81,42,39,2,February
+876,2025-11-27,49,14,2,2,Cliente 49,Rio Grande,54,Clean Code,Tecnologia,Robert C. Martin,88,59,Carlos,176,118,58,11,November
+877,2025-09-29,89,8,4,4,Cliente 89,Porto Alegre,28,Orgulho e Preconceito,Romance,Jane Austen,96,38,Marina,384,152,232,9,September
+878,2025-08-29,16,19,1,2,Cliente 16,Porto Alegre,53,A Menina que Roubava Livros,Romance,Markus Zusak,78,43,Carlos,78,43,35,8,August
+879,2025-08-31,51,3,1,3,Cliente 51,Pelotas,68,O Hobbit,Fantasia,J.R.R. Tolkien,50,34,João,50,34,16,8,August
+880,2025-01-18,72,18,2,3,Cliente 72,Pelotas,66,Coraline,Fantasia,Neil Gaiman,42,21,João,84,42,42,1,January
+881,2025-07-06,82,5,1,2,Cliente 82,Rio Grande,19,O Pequeno Príncipe,Infantil,Antoine de Saint-Exupéry,74,27,Carlos,74,27,47,7,July
+882,2025-12-12,92,14,1,4,Cliente 92,Porto Alegre,41,Clean Code,Tecnologia,Robert C. Martin,88,59,Marina,88,59,29,12,December
+883,2025-05-24,80,4,4,1,Cliente 80,Rio Grande,18,1984,Ficção,George Orwell,97,62,Ana,388,248,140,5,May
+884,2025-09-19,83,7,4,4,Cliente 83,Pelotas,61,It: A Coisa,Terror,Stephen King,94,58,Marina,376,232,144,9,September
+885,2025-12-30,42,20,4,1,Cliente 42,Rio Grande,58,O Alquimista,Ficção,Paulo Coelho,86,63,Ana,344,252,92,12,December
+886,2025-08-27,17,12,3,4,Cliente 17,Pelotas,30,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,Marina,255,129,126,8,August
+887,2025-10-31,63,2,2,2,Cliente 63,Rio Grande,69,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,Carlos,200,96,104,10,October
+888,2025-10-25,45,11,4,3,Cliente 45,Pelotas,23,Pai Rico Pai Pobre,Negócios,Robert Kiyosaki,86,30,João,344,120,224,10,October
+889,2025-03-17,77,14,3,4,Cliente 77,Rio Grande,54,Clean Code,Tecnologia,Robert C. Martin,88,59,Marina,264,177,87,3,March
+890,2025-07-07,7,16,3,1,Cliente 7,Pelotas,21,O Poder do Hábito,Desenvolvimento Pessoal,Charles Duhigg,39,22,Ana,117,66,51,7,July
+891,2025-11-29,27,20,2,3,Cliente 27,Porto Alegre,45,O Alquimista,Ficção,Paulo Coelho,86,63,João,172,126,46,11,November
+892,2025-09-03,10,6,2,1,Cliente 10,Porto Alegre,40,A Revolução dos Bichos,Ficção,George Orwell,66,40,Ana,132,80,52,9,September
+893,2025-05-10,34,4,1,2,Cliente 34,Rio Grande,45,1984,Ficção,George Orwell,97,62,Carlos,97,62,35,5,May
+894,2025-11-11,36,15,3,3,Cliente 36,Rio Grande,56,Python para Dados,Tecnologia,Autor Diversos,101,43,João,303,129,174,11,November
+895,2025-10-10,25,1,4,1,Cliente 25,Pelotas,62,Dom Casmurro,Clássico,Machado de Assis,102,58,Ana,408,232,176,10,October
+896,2025-03-20,6,7,2,4,Cliente 6,Porto Alegre,49,It: A Coisa,Terror,Stephen King,94,58,Marina,188,116,72,3,March
+897,2025-03-13,24,12,3,2,Cliente 24,Porto Alegre,59,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,Carlos,255,129,126,3,March
+898,2025-09-20,18,10,4,2,Cliente 18,Porto Alegre,49,Verity,Romance,Colleen Hoover,71,30,Carlos,284,120,164,9,September
+899,2025-07-10,87,5,3,2,Cliente 87,Pelotas,49,O Pequeno Príncipe,Infantil,Antoine de Saint-Exupéry,74,27,Carlos,222,81,141,7,July
+900,2025-03-04,6,12,2,4,Cliente 6,Porto Alegre,49,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,Marina,170,86,84,3,March
+901,2025-01-12,29,18,1,4,Cliente 29,Porto Alegre,61,Coraline,Fantasia,Neil Gaiman,42,21,Marina,42,21,21,1,January
+902,2025-05-21,25,10,3,3,Cliente 25,Pelotas,62,Verity,Romance,Colleen Hoover,71,30,João,213,90,123,5,May
+903,2025-09-11,55,6,4,4,Cliente 55,Pelotas,32,A Revolução dos Bichos,Ficção,George Orwell,66,40,Marina,264,160,104,9,September
+904,2025-02-12,81,12,2,3,Cliente 81,Pelotas,36,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,João,170,86,84,2,February
+905,2025-01-17,46,7,1,2,Cliente 46,Pelotas,25,It: A Coisa,Terror,Stephen King,94,58,Carlos,94,58,36,1,January
+906,2025-03-04,24,18,4,3,Cliente 24,Porto Alegre,59,Coraline,Fantasia,Neil Gaiman,42,21,João,168,84,84,3,March
+907,2025-09-10,75,2,4,1,Cliente 75,Porto Alegre,45,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,Ana,400,192,208,9,September
+908,2025-10-19,26,10,4,2,Cliente 26,Rio Grande,23,Verity,Romance,Colleen Hoover,71,30,Carlos,284,120,164,10,October
+909,2025-01-08,98,15,3,2,Cliente 98,Porto Alegre,28,Python para Dados,Tecnologia,Autor Diversos,101,43,Carlos,303,129,174,1,January
+910,2025-11-21,28,12,2,3,Cliente 28,Porto Alegre,45,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,João,170,86,84,11,November
+911,2025-03-31,3,17,4,2,Cliente 3,Pelotas,56,Extraordinário,Infantil,R.J. Palacio,92,41,Carlos,368,164,204,3,March
+912,2025-07-27,75,4,3,4,Cliente 75,Porto Alegre,45,1984,Ficção,George Orwell,97,62,Marina,291,186,105,7,July
+913,2025-10-19,38,7,2,1,Cliente 38,Porto Alegre,18,It: A Coisa,Terror,Stephen King,94,58,Ana,188,116,72,10,October
+914,2025-10-11,61,9,2,3,Cliente 61,Rio Grande,66,O Senhor dos Anéis,Fantasia,J.R.R. Tolkien,81,42,João,162,84,78,10,October
+915,2025-04-28,78,19,3,3,Cliente 78,Porto Alegre,49,A Menina que Roubava Livros,Romance,Markus Zusak,78,43,João,234,129,105,4,April
+916,2025-12-15,51,7,3,2,Cliente 51,Pelotas,68,It: A Coisa,Terror,Stephen King,94,58,Carlos,282,174,108,12,December
+917,2025-06-24,90,2,4,4,Cliente 90,Rio Grande,34,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,Marina,400,192,208,6,June
+918,2025-03-17,48,6,2,2,Cliente 48,Pelotas,26,A Revolução dos Bichos,Ficção,George Orwell,66,40,Carlos,132,80,52,3,March
+919,2025-04-11,21,18,1,2,Cliente 21,Porto Alegre,39,Coraline,Fantasia,Neil Gaiman,42,21,Carlos,42,21,21,4,April
+920,2025-05-31,54,6,3,3,Cliente 54,Pelotas,41,A Revolução dos Bichos,Ficção,George Orwell,66,40,João,198,120,78,5,May
+921,2025-09-27,56,13,2,2,Cliente 56,Rio Grande,49,Sapiens,História,Yuval Noah Harari,85,55,Carlos,170,110,60,9,September
+922,2025-03-12,94,19,2,1,Cliente 94,Rio Grande,69,A Menina que Roubava Livros,Romance,Markus Zusak,78,43,Ana,156,86,70,3,March
+923,2025-06-29,59,2,4,2,Cliente 59,Pelotas,58,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,Carlos,400,192,208,6,June
+924,2025-05-04,72,12,1,2,Cliente 72,Pelotas,66,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,Carlos,85,43,42,5,May
+925,2025-10-20,51,15,4,3,Cliente 51,Pelotas,68,Python para Dados,Tecnologia,Autor Diversos,101,43,João,404,172,232,10,October
+926,2025-10-12,20,14,1,2,Cliente 20,Porto Alegre,68,Clean Code,Tecnologia,Robert C. Martin,88,59,Carlos,88,59,29,10,October
+927,2025-07-14,96,6,1,4,Cliente 96,Rio Grande,23,A Revolução dos Bichos,Ficção,George Orwell,66,40,Marina,66,40,26,7,July
+928,2025-08-16,86,18,3,3,Cliente 86,Rio Grande,23,Coraline,Fantasia,Neil Gaiman,42,21,João,126,63,63,8,August
+929,2025-10-02,59,5,2,2,Cliente 59,Pelotas,58,O Pequeno Príncipe,Infantil,Antoine de Saint-Exupéry,74,27,Carlos,148,54,94,10,October
+930,2025-04-16,71,18,2,1,Cliente 71,Porto Alegre,34,Coraline,Fantasia,Neil Gaiman,42,21,Ana,84,42,42,4,April
+931,2025-01-21,9,3,2,1,Cliente 9,Pelotas,54,O Hobbit,Fantasia,J.R.R. Tolkien,50,34,Ana,100,68,32,1,January
+932,2025-03-05,1,3,1,3,Cliente 1,Rio Grande,68,O Hobbit,Fantasia,J.R.R. Tolkien,50,34,João,50,34,16,3,March
+933,2025-06-14,29,10,2,3,Cliente 29,Porto Alegre,61,Verity,Romance,Colleen Hoover,71,30,João,142,60,82,6,June
+934,2025-01-27,63,19,3,2,Cliente 63,Rio Grande,69,A Menina que Roubava Livros,Romance,Markus Zusak,78,43,Carlos,234,129,105,1,January
+935,2025-11-07,72,3,1,4,Cliente 72,Pelotas,66,O Hobbit,Fantasia,J.R.R. Tolkien,50,34,Marina,50,34,16,11,November
+936,2025-10-12,56,12,1,2,Cliente 56,Rio Grande,49,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,Carlos,85,43,42,10,October
+937,2025-05-28,68,16,1,1,Cliente 68,Pelotas,66,O Poder do Hábito,Desenvolvimento Pessoal,Charles Duhigg,39,22,Ana,39,22,17,5,May
+938,2025-10-08,35,17,1,4,Cliente 35,Porto Alegre,42,Extraordinário,Infantil,R.J. Palacio,92,41,Marina,92,41,51,10,October
+939,2025-11-22,3,7,3,4,Cliente 3,Pelotas,56,It: A Coisa,Terror,Stephen King,94,58,Marina,282,174,108,11,November
+940,2025-11-15,7,13,2,4,Cliente 7,Pelotas,21,Sapiens,História,Yuval Noah Harari,85,55,Marina,170,110,60,11,November
+941,2025-06-13,27,2,3,2,Cliente 27,Porto Alegre,45,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,Carlos,300,144,156,6,June
+942,2025-08-12,1,4,2,1,Cliente 1,Rio Grande,68,1984,Ficção,George Orwell,97,62,Ana,194,124,70,8,August
+943,2025-09-29,91,10,3,3,Cliente 91,Rio Grande,55,Verity,Romance,Colleen Hoover,71,30,João,213,90,123,9,September
+944,2025-05-26,80,7,4,2,Cliente 80,Rio Grande,18,It: A Coisa,Terror,Stephen King,94,58,Carlos,376,232,144,5,May
+945,2025-12-22,71,17,4,3,Cliente 71,Porto Alegre,34,Extraordinário,Infantil,R.J. Palacio,92,41,João,368,164,204,12,December
+946,2025-01-30,44,20,4,4,Cliente 44,Porto Alegre,56,O Alquimista,Ficção,Paulo Coelho,86,63,Marina,344,252,92,1,January
+947,2025-02-14,87,6,4,4,Cliente 87,Pelotas,49,A Revolução dos Bichos,Ficção,George Orwell,66,40,Marina,264,160,104,2,February
+948,2025-10-02,41,19,1,2,Cliente 41,Porto Alegre,30,A Menina que Roubava Livros,Romance,Markus Zusak,78,43,Carlos,78,43,35,10,October
+949,2025-02-03,75,5,1,1,Cliente 75,Porto Alegre,45,O Pequeno Príncipe,Infantil,Antoine de Saint-Exupéry,74,27,Ana,74,27,47,2,February
+950,2025-05-21,42,10,3,4,Cliente 42,Rio Grande,58,Verity,Romance,Colleen Hoover,71,30,Marina,213,90,123,5,May
+951,2025-11-14,33,9,3,3,Cliente 33,Rio Grande,28,O Senhor dos Anéis,Fantasia,J.R.R. Tolkien,81,42,João,243,126,117,11,November
+952,2025-08-09,50,13,4,3,Cliente 50,Pelotas,50,Sapiens,História,Yuval Noah Harari,85,55,João,340,220,120,8,August
+953,2025-12-22,63,19,2,2,Cliente 63,Rio Grande,69,A Menina que Roubava Livros,Romance,Markus Zusak,78,43,Carlos,156,86,70,12,December
+954,2025-01-22,100,6,4,3,Cliente 100,Pelotas,33,A Revolução dos Bichos,Ficção,George Orwell,66,40,João,264,160,104,1,January
+955,2025-06-29,37,4,3,1,Cliente 37,Pelotas,50,1984,Ficção,George Orwell,97,62,Ana,291,186,105,6,June
+956,2025-11-25,59,3,4,4,Cliente 59,Pelotas,58,O Hobbit,Fantasia,J.R.R. Tolkien,50,34,Marina,200,136,64,11,November
+957,2025-08-19,81,3,3,3,Cliente 81,Pelotas,36,O Hobbit,Fantasia,J.R.R. Tolkien,50,34,João,150,102,48,8,August
+958,2025-02-07,99,4,4,3,Cliente 99,Porto Alegre,65,1984,Ficção,George Orwell,97,62,João,388,248,140,2,February
+959,2025-03-11,48,5,2,4,Cliente 48,Pelotas,26,O Pequeno Príncipe,Infantil,Antoine de Saint-Exupéry,74,27,Marina,148,54,94,3,March
+960,2025-04-26,5,8,4,2,Cliente 5,Porto Alegre,69,Orgulho e Preconceito,Romance,Jane Austen,96,38,Carlos,384,152,232,4,April
+961,2025-08-27,48,16,2,3,Cliente 48,Pelotas,26,O Poder do Hábito,Desenvolvimento Pessoal,Charles Duhigg,39,22,João,78,44,34,8,August
+962,2025-12-01,96,3,2,2,Cliente 96,Rio Grande,23,O Hobbit,Fantasia,J.R.R. Tolkien,50,34,Carlos,100,68,32,12,December
+963,2025-05-28,3,12,3,2,Cliente 3,Pelotas,56,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,Carlos,255,129,126,5,May
+964,2025-01-09,47,8,2,3,Cliente 47,Pelotas,44,Orgulho e Preconceito,Romance,Jane Austen,96,38,João,192,76,116,1,January
+965,2025-10-15,62,13,1,1,Cliente 62,Pelotas,66,Sapiens,História,Yuval Noah Harari,85,55,Ana,85,55,30,10,October
+966,2025-02-19,99,4,1,2,Cliente 99,Porto Alegre,65,1984,Ficção,George Orwell,97,62,Carlos,97,62,35,2,February
+967,2025-12-04,14,14,1,3,Cliente 14,Rio Grande,60,Clean Code,Tecnologia,Robert C. Martin,88,59,João,88,59,29,12,December
+968,2025-01-05,63,14,3,2,Cliente 63,Rio Grande,69,Clean Code,Tecnologia,Robert C. Martin,88,59,Carlos,264,177,87,1,January
+969,2025-12-09,61,13,1,4,Cliente 61,Rio Grande,66,Sapiens,História,Yuval Noah Harari,85,55,Marina,85,55,30,12,December
+970,2025-05-06,31,6,3,1,Cliente 31,Porto Alegre,37,A Revolução dos Bichos,Ficção,George Orwell,66,40,Ana,198,120,78,5,May
+971,2025-03-16,95,17,3,1,Cliente 95,Pelotas,51,Extraordinário,Infantil,R.J. Palacio,92,41,Ana,276,123,153,3,March
+972,2025-06-14,17,4,1,4,Cliente 17,Pelotas,30,1984,Ficção,George Orwell,97,62,Marina,97,62,35,6,June
+973,2025-10-05,24,8,2,4,Cliente 24,Porto Alegre,59,Orgulho e Preconceito,Romance,Jane Austen,96,38,Marina,192,76,116,10,October
+974,2025-11-20,23,17,4,2,Cliente 23,Porto Alegre,19,Extraordinário,Infantil,R.J. Palacio,92,41,Carlos,368,164,204,11,November
+975,2025-10-27,82,3,3,4,Cliente 82,Rio Grande,19,O Hobbit,Fantasia,J.R.R. Tolkien,50,34,Marina,150,102,48,10,October
+976,2025-10-17,50,17,1,1,Cliente 50,Pelotas,50,Extraordinário,Infantil,R.J. Palacio,92,41,Ana,92,41,51,10,October
+977,2025-03-18,78,9,3,4,Cliente 78,Porto Alegre,49,O Senhor dos Anéis,Fantasia,J.R.R. Tolkien,81,42,Marina,243,126,117,3,March
+978,2025-10-25,79,2,2,3,Cliente 79,Rio Grande,50,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,João,200,96,104,10,October
+979,2025-05-17,79,13,2,3,Cliente 79,Rio Grande,50,Sapiens,História,Yuval Noah Harari,85,55,João,170,110,60,5,May
+980,2025-04-16,70,20,1,2,Cliente 70,Pelotas,66,O Alquimista,Ficção,Paulo Coelho,86,63,Carlos,86,63,23,4,April
+981,2025-04-05,27,2,3,1,Cliente 27,Porto Alegre,45,Harry Potter e a Pedra Filosofal,Fantasia,J.K. Rowling,100,48,Ana,300,144,156,4,April
+982,2025-05-15,15,20,4,3,Cliente 15,Rio Grande,46,O Alquimista,Ficção,Paulo Coelho,86,63,João,344,252,92,5,May
+983,2025-03-09,50,11,4,4,Cliente 50,Pelotas,50,Pai Rico Pai Pobre,Negócios,Robert Kiyosaki,86,30,Marina,344,120,224,3,March
+984,2025-05-27,36,15,3,3,Cliente 36,Rio Grande,56,Python para Dados,Tecnologia,Autor Diversos,101,43,João,303,129,174,5,May
+985,2025-06-08,8,11,3,3,Cliente 8,Porto Alegre,47,Pai Rico Pai Pobre,Negócios,Robert Kiyosaki,86,30,João,258,90,168,6,June
+986,2025-06-12,79,3,3,2,Cliente 79,Rio Grande,50,O Hobbit,Fantasia,J.R.R. Tolkien,50,34,Carlos,150,102,48,6,June
+987,2025-12-07,3,3,1,4,Cliente 3,Pelotas,56,O Hobbit,Fantasia,J.R.R. Tolkien,50,34,Marina,50,34,16,12,December
+988,2025-07-08,62,12,2,4,Cliente 62,Pelotas,66,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,Marina,170,86,84,7,July
+989,2025-12-05,47,5,4,4,Cliente 47,Pelotas,44,O Pequeno Príncipe,Infantil,Antoine de Saint-Exupéry,74,27,Marina,296,108,188,12,December
+990,2025-04-05,77,20,1,2,Cliente 77,Rio Grande,54,O Alquimista,Ficção,Paulo Coelho,86,63,Carlos,86,63,23,4,April
+991,2025-06-30,98,7,3,4,Cliente 98,Porto Alegre,28,It: A Coisa,Terror,Stephen King,94,58,Marina,282,174,108,6,June
+992,2025-10-15,88,7,3,4,Cliente 88,Pelotas,21,It: A Coisa,Terror,Stephen King,94,58,Marina,282,174,108,10,October
+993,2025-11-18,96,13,2,3,Cliente 96,Rio Grande,23,Sapiens,História,Yuval Noah Harari,85,55,João,170,110,60,11,November
+994,2025-07-06,61,9,3,3,Cliente 61,Rio Grande,66,O Senhor dos Anéis,Fantasia,J.R.R. Tolkien,81,42,João,243,126,117,7,July
+995,2025-05-18,32,13,1,4,Cliente 32,Porto Alegre,47,Sapiens,História,Yuval Noah Harari,85,55,Marina,85,55,30,5,May
+996,2025-05-10,94,12,1,1,Cliente 94,Rio Grande,69,Mindset,Desenvolvimento Pessoal,Carol Dweck,85,43,Ana,85,43,42,5,May
+997,2025-07-13,13,13,2,1,Cliente 13,Pelotas,32,Sapiens,História,Yuval Noah Harari,85,55,Ana,170,110,60,7,July
+998,2025-11-12,1,10,1,4,Cliente 1,Rio Grande,68,Verity,Romance,Colleen Hoover,71,30,Marina,71,30,41,11,November
+999,2025-09-30,34,1,4,1,Cliente 34,Rio Grande,45,Dom Casmurro,Clássico,Machado de Assis,102,58,Ana,408,232,176,9,September
+1000,2025-12-18,62,8,1,2,Cliente 62,Pelotas,66,Orgulho e Preconceito,Romance,Jane Austen,96,38,Carlos,96,38,58,12,December
